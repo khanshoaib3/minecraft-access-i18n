@@ -1,0 +1,18 @@
+{
+  "minecraft_access.keys.camera_controls.group_name": "Camera Controls",
+  "minecraft_access.keys.camera_controls.up_key_name": "Look Up Key",
+  "minecraft_access.keys.camera_controls.right_key_name": "Look Right Key",
+  "minecraft_access.keys.camera_controls.down_key_name": "Look Down Key",
+  "minecraft_access.keys.camera_controls.left_key_name": "Look Left Key",
+  "minecraft_access.direction.vertical_angle_straight": "Straight",
+  "minecraft_access.direction.vertical_angle_up": "Up",
+  "minecraft_access.direction.vertical_angle_down": "Down",
+  "minecraft_access.direction.horizontal_angle_north": "North",
+  "minecraft_access.direction.horizontal_angle_east": "East",
+  "minecraft_access.direction.horizontal_angle_south": "South",
+  "minecraft_access.direction.horizontal_angle_west": "West",
+  "minecraft_access.direction.horizontal_angle_north_east": "North East",
+  "minecraft_access.direction.horizontal_angle_south_east": "South East",
+  "minecraft_access.direction.horizontal_angle_south_west": "South West",
+  "minecraft_access.direction.horizontal_angle_north_west": "North West"
+}
