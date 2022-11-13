@@ -29,6 +29,11 @@
   "minecraft_access.inventory_controls.tab_selected": "Tab %s selected",
   "minecraft_access.inventory_controls.trade_text_format": "Trade %s for %s",
   "minecraft_access.inventory_controls.trade_text_format_with_second_item": "Trade %s and %s for %s",
+  "minecraft_access.inventory_controls.no_slot_in_direction": "No slot %s",
+  "minecraft_access.inventory_controls.direction_up": "Above",
+  "minecraft_access.inventory_controls.direction_left": "Left",
+  "minecraft_access.inventory_controls.direction_down": "Down",
+  "minecraft_access.inventory_controls.direction_right": "Right",
   "minecraft_access.inventory_controls.empty_slot": "%s Empty Slot",
   "minecraft_access.inventory_controls.scrollable": "Scrollable",
   "minecraft_access.inventory_controls.Unknown": "Unknown"
