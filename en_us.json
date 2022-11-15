@@ -36,5 +36,10 @@
   "minecraft_access.inventory_controls.direction_right": "Right",
   "minecraft_access.inventory_controls.empty_slot": "%s Empty Slot",
   "minecraft_access.inventory_controls.scrollable": "Scrollable",
-  "minecraft_access.inventory_controls.Unknown": "Unknown"
+  "minecraft_access.inventory_controls.Unknown": "Unknown",
+  "minecraft_access.read_block.sign_content": "%s says: %s",
+  "minecraft_access.read_block.powered": "Powered %s",
+  "minecraft_access.read_block.opened": "Opened %s",
+  "minecraft_access.read_block.locked": "Locked %s",
+  "minecraft_access.read_block.facing": "%s Facing %s"
 }
