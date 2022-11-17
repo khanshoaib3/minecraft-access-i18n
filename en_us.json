@@ -1,6 +1,7 @@
 {
   "minecraft_access.keys.other.group_name": "Minecraft Access",
   "minecraft_access.keys.other.facing_direction_key_name": "Speak Facing Direction Key",
+  "minecraft_access.keys.other.player_position_key_name": "Speak Player Position Key",
   "minecraft_access.keys.camera_controls.group_name": "Camera Controls",
   "minecraft_access.keys.camera_controls.up_key_name": "Look Up Key",
   "minecraft_access.keys.camera_controls.right_key_name": "Look Right Key",
