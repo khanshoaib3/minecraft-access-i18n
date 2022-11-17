@@ -1,4 +1,6 @@
 {
+  "minecraft_access.keys.other.group_name": "Minecraft Access",
+  "minecraft_access.keys.other.facing_direction_key_name": "Speak Facing Direction Key",
   "minecraft_access.keys.camera_controls.group_name": "Camera Controls",
   "minecraft_access.keys.camera_controls.up_key_name": "Look Up Key",
   "minecraft_access.keys.camera_controls.right_key_name": "Look Right Key",
@@ -43,5 +45,7 @@
   "minecraft_access.read_block.locked": "Locked %s",
   "minecraft_access.read_block.facing": "%s Facing %s",
   "minecraft_access.other.hotbar": "%s selected",
-  "minecraft_access.other.biome": "%s biome entered"
+  "minecraft_access.other.biome": "%s biome entered",
+  "minecraft_access.other.facing_direction": "Facing %s",
+  "minecraft_access.other.negative": "negative %s"
 }
