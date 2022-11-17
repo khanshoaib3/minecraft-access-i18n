@@ -41,5 +41,6 @@
   "minecraft_access.read_block.powered": "Powered %s",
   "minecraft_access.read_block.opened": "Opened %s",
   "minecraft_access.read_block.locked": "Locked %s",
-  "minecraft_access.read_block.facing": "%s Facing %s"
+  "minecraft_access.read_block.facing": "%s Facing %s",
+  "minecraft_access.other.hotbar": "%s selected"
 }
