@@ -52,5 +52,7 @@
   "minecraft_access.other.hotbar": "%s selected",
   "minecraft_access.other.biome": "%s biome entered",
   "minecraft_access.other.facing_direction": "Facing %s",
-  "minecraft_access.other.negative": "negative %s"
+  "minecraft_access.other.negative": "negative %s",
+  "block.minecraft.flowing_water": "Flowing Water",
+  "block.minecraft.flowing_lava": "Flowing Lava"
 }
