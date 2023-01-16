@@ -63,6 +63,8 @@
   "minecraft_access.narrator_menu.gui.button.entity_target_info": "Entity target information",
   "minecraft_access.narrator_menu.gui.button.entity_target_position": "Entity target position",
   "minecraft_access.narrator_menu.gui.button.light_level": "Light Level",
+  "minecraft_access.narrator_menu.gui.button.find_water": "Find Closest Water Source",
+  "minecraft_access.narrator_menu.gui.button.find_lava": "Find Closest Lava Source",
   "minecraft_access.narrator_menu.gui.button.biome": "Biome",
   "minecraft_access.narrator_menu.gui.button.xp": "XP",
   "minecraft_access.narrator_menu.biome": "%s biome",
