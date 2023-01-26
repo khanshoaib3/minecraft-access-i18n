@@ -14,6 +14,7 @@
   "minecraft_access.keys.camera_controls.alternate_right_key_name": "Alternate Look Right Key",
   "minecraft_access.keys.camera_controls.alternate_down_key_name": "Alternate Look Down Key",
   "minecraft_access.keys.camera_controls.alternate_left_key_name": "Alternate Look Left Key",
+  "minecraft_access.keys.camera_controls.center_camera_key_name": "Center Camera Key",
   "minecraft_access.keys.camera_controls.north_key_name": "Look North Key",
   "minecraft_access.keys.camera_controls.east_key_name": "Look East Key",
   "minecraft_access.keys.camera_controls.west_key_name": "Look West Key",
