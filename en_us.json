@@ -63,6 +63,8 @@
   "minecraft_access.read_crosshair.locked": "Locked %s",
   "minecraft_access.read_crosshair.facing": "%s Facing %s",
   "minecraft_access.read_crosshair.fluid_level": ", Level %d",
+  "minecraft_access.read_crosshair.animal_entity_baby": "Baby %s",
+  "minecraft_access.read_crosshair.animal_entity_leashed": "Leashed %s",
   "minecraft_access.player_warnings.health_low": "Warning, Health is %d",
   "minecraft_access.player_warnings.hunger_low": "Warning, Hunger is %d",
   "minecraft_access.player_warnings.air_low": "Warning, Air is %d",
