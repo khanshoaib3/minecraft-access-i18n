@@ -101,6 +101,7 @@
   "minecraft_access.other.facing_direction": "Facing %s",
   "minecraft_access.other.negative": "negative %s",
   "minecraft_access.other.not_found": "Not Found",
+  "minecraft_access.other.durability": "Durability: %s of %s",
   "block.minecraft.flowing_water": "Flowing Water",
   "block.minecraft.flowing_lava": "Flowing Lava"
 }
