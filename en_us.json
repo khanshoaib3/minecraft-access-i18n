@@ -85,6 +85,8 @@
   "minecraft_access.narrator_menu.gui.button.refresh_config": "Refresh Config",
   "minecraft_access.narrator_menu.biome": "%s biome",
   "minecraft_access.narrator_menu.time_of_day": "Time is, %s",
+  "minecraft_access.narrator_menu.time_of_day_am": "Time is, %s A.M.",
+  "minecraft_access.narrator_menu.time_of_day_pm": "Time is, %s P.M.",
   "minecraft_access.narrator_menu.xp": "Experience level is %s with %s progress",
   "minecraft_access.narrator_menu.light_level": "Light level is, %s",
   "minecraft_access.narrator_menu.target_missed": "Too far",
