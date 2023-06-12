@@ -113,6 +113,8 @@
   "minecraft_access.gui.common.button.feature_toggle_button.disabled": "Disabled",
   "minecraft_access.gui.common.button.button_with_float_value": "%s: %f",
   "minecraft_access.gui.common.button.button_with_int_value": "%s: %d",
+  "minecraft_access.gui.screen.value_entry_menu": "Value Entry Menu",
+  "minecraft_access.gui.value_entry_menu.info_text": "Press enter key to accept and escape key to cancel.\tValue: %s",
   "minecraft_access.gui.screen.f4_menu": "F4 Menu",
   "minecraft_access.narrator_menu.gui.button.block_and_fluid_target_info": "Block and Fluid target information",
   "minecraft_access.narrator_menu.gui.button.block_and_fluid_target_position": "Block and Fluid target position",
