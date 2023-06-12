@@ -111,6 +111,8 @@
   "minecraft_access.gui.screen.camera_controls_config_menu": "Camera Controls Configs",
   "minecraft_access.gui.common.button.feature_toggle_button.enabled": "Enabled",
   "minecraft_access.gui.common.button.feature_toggle_button.disabled": "Disabled",
+  "minecraft_access.gui.common.button.button_with_float_value": "%s: %f",
+  "minecraft_access.gui.common.button.button_with_int_value": "%s: %d",
   "minecraft_access.gui.screen.f4_menu": "F4 Menu",
   "minecraft_access.narrator_menu.gui.button.block_and_fluid_target_info": "Block and Fluid target information",
   "minecraft_access.narrator_menu.gui.button.block_and_fluid_target_position": "Block and Fluid target position",
