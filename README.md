@@ -1,11 +1,21 @@
 # minecraft-access-i18n
 
-## Untranslated Keys
+This is a translation subproject for the [minecraft-access](https://github.com/khanshoaib3/minecraft-access) Minecraft Mod project,
+which translates the text content to be presented to users in that mod but not present in the Vanilla game into multiple languages. 
 
-### For zh_cn
+The English version is used as the original text. Please feel free to submit or discuss translations in other languages.
 
-| Key                                                  | English value      |
-|------------------------------------------------------|--------------------|
-| minecraft_access.read_crosshair.bee_hive_smoked      | Smoked %s          |
-| minecraft_access.read_crosshair.bee_hive_honey_level | %s Honey Level: %d |
-| minecraft_access.read_crosshair.bee_hive_facing      | %s Facing: %s      |
+[//]: # (## Untranslated Keys)
+
+[//]: # ()
+[//]: # ()
+[//]: # (### For zh_cn)
+
+[//]: # ()
+[//]: # (| Key | English value |)
+
+[//]: # ()
+[//]: # (|-----|---------------|)
+
+[//]: # ()
+[//]: # (|     |               |)
