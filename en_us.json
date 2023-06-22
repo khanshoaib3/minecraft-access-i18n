@@ -155,6 +155,7 @@
   "minecraft_access.gui.other_config_menu.button.position_narrator_format_button": "Position Narrator Format",
   "minecraft_access.gui.other_config_menu.button.use_12_hour_format_button": "Use 12 Hour Format",
   "minecraft_access.gui.other_config_menu.button.speak_action_bar_button": "Speak Action Bar Updates",
+  "minecraft_access.gui.other_config_menu.button.speak_fishing_harvest_button": "Speak Harvest Of Fishing",
   "minecraft_access.gui.other_config_menu.button.menu_fix_button": "Menu Fix",
   "minecraft_access.gui.other_config_menu.button.debug_mode_button": "Debug Mode",
   "minecraft_access.gui.common.button.feature_toggle_button.enabled": "Enabled",
