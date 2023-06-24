@@ -81,6 +81,7 @@
   "minecraft_access.slot_group.enchants": "Enchants",
   "minecraft_access.slot_group.unknown": "Unknown",
   "minecraft_access.point_of_interest.locking.tracking_eye_of_ender": "Tracking Eye of Ender",
+  "minecraft_access.point_of_interest.locking.locked": "Lock On: %s",
   "minecraft_access.point_of_interest.locking.unlocked": "Unlocked",
   "minecraft_access.point_of_interest.marking.marked": "Mark On: %s",
   "minecraft_access.point_of_interest.marking.unmarked": "Unmarked",
