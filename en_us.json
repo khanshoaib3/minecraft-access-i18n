@@ -218,6 +218,8 @@
   "minecraft_access.other.durability": "Durability: %s of %s",
   "minecraft_access.other.shearable": "%s Shearable",
   "minecraft_access.other.not_shearable": "%s Sheared",
+  "minecraft_access.other.craftable": "Craftable",
+  "minecraft_access.other.not_craftable": "Not Craftable",
   "minecraft_access.color.red": "Red",
   "minecraft_access.color.green": "Green",
   "minecraft_access.color.purple": "Purple",

@@ -218,6 +218,8 @@
   "minecraft_access.other.durability": "耐久： %s / %s",
   "minecraft_access.other.shearable": "%s 可剪毛",
   "minecraft_access.other.not_shearable": "%s 不可剪毛",
+  "minecraft_access.other.craftable": "可合成",
+  "minecraft_access.other.not_craftable": "不可合成",
   "minecraft_access.color.red": "红色",
   "minecraft_access.color.green": "绿色",
   "minecraft_access.color.purple": "紫色",
