@@ -238,6 +238,7 @@
   "minecraft_access.crop.half_ripe": "%s 半成熟",
   "minecraft_access.crop.ripe": "%s 成熟",
   "minecraft_access.crop.wet_farmland": "湿润 %s",
+  "minecraft_access.book_edit.focus_moved_away": "焦点已离开按钮",
   "block.minecraft.flowing_water": "水流",
   "block.minecraft.flowing_lava": "岩浆流"
 }
