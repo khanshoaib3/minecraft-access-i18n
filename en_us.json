@@ -240,6 +240,7 @@
   "minecraft_access.crop.half_ripe": "%s Half Ripe",
   "minecraft_access.crop.ripe": "%s Harvestable",
   "minecraft_access.crop.wet_farmland": "Wet %s",
+  "minecraft_access.book_edit.focus_moved_away": "Focus Moved Away From Buttons",
   "block.minecraft.flowing_water": "Flowing Water",
   "block.minecraft.flowing_lava": "Flowing Lava"
 }
