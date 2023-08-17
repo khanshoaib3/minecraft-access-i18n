@@ -21,6 +21,8 @@
   "minecraft_access.keys.camera_controls.west_key_name": "k. Look West Key",
   "minecraft_access.keys.camera_controls.south_key_name": "l. Look South Key",
   "minecraft_access.keys.camera_controls.center_camera_key_name": "m. Center Camera Key",
+  "minecraft_access.keys.camera_controls.straight_up_camera_key_name": "n. Look Straight Up Key",
+  "minecraft_access.keys.camera_controls.straight_down_camera_key_name": "o. Look Straight Down Key",
   "minecraft_access.keys.inventory_controls.group_name": "Inventory Controls",
   "minecraft_access.keys.inventory_controls.change_group_key_name": "a. Change Group Key",
   "minecraft_access.keys.inventory_controls.switch_tabs_key_name": "b. Switch Tabs Key",
