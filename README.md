@@ -7,10 +7,14 @@ languages.
 
 The English version is used as the original text. Please feel free to submit or discuss translations in other languages.
 
-## Untranslated Keys
+[//]: # (## Untranslated Keys)
 
-### For zh_cn
+[//]: # ()
+[//]: # (### For zh_cn)
 
-| Key                                               | English value    |
-|---------------------------------------------------|------------------|
-| minecraft_access.read_crosshair.sign_back_content | %s back says: %s |
+[//]: # ()
+[//]: # (| Key                                               | English value    |)
+
+[//]: # (|---------------------------------------------------|------------------|)
+
+[//]: # (| minecraft_access.read_crosshair.sign_back_content | %s back says: %s |)
