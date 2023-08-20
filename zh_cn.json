@@ -21,6 +21,8 @@
   "minecraft_access.keys.camera_controls.west_key_name": "k. 向西",
   "minecraft_access.keys.camera_controls.south_key_name": "l. 向南",
   "minecraft_access.keys.camera_controls.center_camera_key_name": "m. 视角居中",
+  "minecraft_access.keys.camera_controls.straight_up_camera_key_name": "n. 向头顶",
+  "minecraft_access.keys.camera_controls.straight_down_camera_key_name": "o. 向脚下",
   "minecraft_access.keys.inventory_controls.group_name": "物品栏控制",
   "minecraft_access.keys.inventory_controls.change_group_key_name": "a. 切换控件组",
   "minecraft_access.keys.inventory_controls.switch_tabs_key_name": "b. 切换选项卡",
