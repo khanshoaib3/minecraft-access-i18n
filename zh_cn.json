@@ -1,7 +1,7 @@
 {
   "minecraft_access.keys.other.group_name": "其它 minecraft 无障碍键位设置",
   "minecraft_access.keys.other.facing_direction_key_name": "朗读面对的方向",
-  "minecraft_access.keys.other.narrator_menu_key_name": "朗读菜单",
+  "minecraft_access.keys.other.narrator_menu_key_name": "打开朗读菜单",
   "minecraft_access.keys.other.narrator_menu_hot_key_name": "朗读菜单热键",
   "minecraft_access.keys.other.narrator_menu_hot_key_switch": "%s 被切换为热键",
   "minecraft_access.keys.other.player_position_key_name": "朗读玩家位置",
@@ -39,6 +39,8 @@
   "minecraft_access.keys.mouse_simulation.right_key_name": "c. 模拟鼠标右键",
   "minecraft_access.keys.mouse_simulation.scroll_up_key_name": "d. 模拟鼠标滚轮向上",
   "minecraft_access.keys.mouse_simulation.scroll_down_key_name": "e. 模拟鼠标滚轮向下",
+  "minecraft_access.keys.area_map.group_name": "区域地图",
+  "minecraft_access.keys.area_map.menu_key": "a. 打开区域地图菜单",
   "minecraft_access.direction.straight": "前",
   "minecraft_access.direction.up": "上",
   "minecraft_access.direction.down": "下",
@@ -196,6 +198,7 @@
   "minecraft_access.gui.screen.value_entry_menu": "数值输入菜单",
   "minecraft_access.gui.value_entry_menu.info_text": "按回车键确认，或按ESC退出键取消。\t当前值： %s",
   "minecraft_access.gui.screen.f4_menu": "F4 菜单",
+  "minecraft_access.gui.screen.area_map_menu": "区域地图 菜单",
   "minecraft_access.narrator_menu.gui.button.block_and_fluid_target_info": "1. 查看所指向的方块/流体信息",
   "minecraft_access.narrator_menu.gui.button.block_and_fluid_target_position": "2. 查看所指向的方块/流体位置",
   "minecraft_access.narrator_menu.gui.button.entity_target_info": "查看所指向的实体信息",
@@ -256,5 +259,6 @@
   "minecraft_access.crop.wet_farmland": "湿润 %s",
   "minecraft_access.book_edit.focus_moved_away": "焦点已离开按钮",
   "block.minecraft.flowing_water": "水流",
-  "block.minecraft.flowing_lava": "岩浆流"
+  "block.minecraft.flowing_lava": "岩浆流",
+  "minecraft_access.gui.screen.area_map_menu": "Area Map Menu"
 }
