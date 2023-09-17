@@ -125,6 +125,7 @@
   "minecraft_access.gui.screen.config_menu": "Config Menu",
   "minecraft_access.gui.config_menu.button.camera_controls_button": "Camera Controls Configs",
   "minecraft_access.gui.config_menu.button.inventory_controls_button": "Inventory Controls Configs",
+  "minecraft_access.gui.screen.mouse_simulation_config_menu": "Mouse Simulation Config Menu",
   "minecraft_access.gui.config_menu.button.mouse_simulation_button": "Mouse Simulation Configs",
   "minecraft_access.gui.config_menu.button.poi_button": "Point of Interests Configs",
   "minecraft_access.gui.config_menu.button.player_warnings_button": "Player Warnings Configs",
