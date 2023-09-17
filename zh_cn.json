@@ -125,6 +125,7 @@
   "minecraft_access.gui.screen.config_menu": "配置菜单 主菜单",
   "minecraft_access.gui.config_menu.button.camera_controls_button": "摄像头控制配置",
   "minecraft_access.gui.config_menu.button.inventory_controls_button": "物品栏控制配置",
+  "minecraft_access.gui.screen.mouse_simulation_config_menu": "鼠标模拟 配置菜单",
   "minecraft_access.gui.config_menu.button.mouse_simulation_button": "鼠标模拟配置",
   "minecraft_access.gui.config_menu.button.poi_button": "周边特殊要素 Point of Interests 配置",
   "minecraft_access.gui.config_menu.button.player_warnings_button": "玩家状态告警配置",
