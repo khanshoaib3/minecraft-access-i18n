@@ -226,6 +226,7 @@
   "minecraft_access.narrator_menu.xp": "当前经验等级为 %s ，进度 %s ",
   "minecraft_access.narrator_menu.light_level": "亮度等级 %s",
   "minecraft_access.narrator_menu.target_missed": "太远了",
+  "minecraft_access.area_map.cursor_reset": "指针重置回玩家位置，%s",
   "minecraft_access.util.position_difference_away": "前方 %s 格",
   "minecraft_access.util.position_difference_behind": "后方 %s 格",
   "minecraft_access.util.position_difference_left": "左边 %s 格",

@@ -226,6 +226,7 @@
   "minecraft_access.narrator_menu.xp": "O nível de experiência é %s com  o progresso de %s",
   "minecraft_access.narrator_menu.light_level": "Nível de luz, %s",
   "minecraft_access.narrator_menu.target_missed": "Muito longe",
+  "minecraft_access.area_map.cursor_reset": "Cursor reset to player position, %s",
   "minecraft_access.util.position_difference_away": "%s blocos de distância",
   "minecraft_access.util.position_difference_behind": "%s blocos para tráz",
   "minecraft_access.util.position_difference_left": "%s blocos à esquerda",

@@ -226,6 +226,7 @@
   "minecraft_access.narrator_menu.xp": "Experience level is %s with %s progress",
   "minecraft_access.narrator_menu.light_level": "Light level is, %s",
   "minecraft_access.narrator_menu.target_missed": "Too far",
+  "minecraft_access.area_map.cursor_reset": "Cursor reset to player position, %s",
   "minecraft_access.util.position_difference_away": "%s blocks away",
   "minecraft_access.util.position_difference_behind": "%s blocks behind",
   "minecraft_access.util.position_difference_left": "%s blocks left",
