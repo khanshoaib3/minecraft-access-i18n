@@ -45,6 +45,7 @@
   "minecraft_access.keys.area_map.east_key_name": "e. 指针向东",
   "minecraft_access.keys.area_map.up_key_name": "f. 指针向上",
   "minecraft_access.keys.area_map.down_key_name": "g. 指针向下",
+  "minecraft_access.keys.area_map.cursor_reset_key_name": "h. 重置指针",
   "minecraft_access.direction.straight": "前",
   "minecraft_access.direction.up": "上",
   "minecraft_access.direction.down": "下",

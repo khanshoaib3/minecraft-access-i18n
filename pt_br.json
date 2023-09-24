@@ -45,6 +45,7 @@
   "minecraft_access.keys.area_map.east_key_name": "e. Cursor East Key",
   "minecraft_access.keys.area_map.up_key_name": "f. Cursor Up Key",
   "minecraft_access.keys.area_map.down_key_name": "g. Cursor Down Key",
+  "minecraft_access.keys.area_map.cursor_reset_key_name": "h. Cursor Reset Key",
   "minecraft_access.direction.straight": "Reto",
   "minecraft_access.direction.up": "Cima",
   "minecraft_access.direction.down": "Baixo",
