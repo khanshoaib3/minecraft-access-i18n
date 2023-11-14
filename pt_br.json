@@ -242,6 +242,7 @@
   "minecraft_access.xp_indicator.increased": "Xp do jogador almentou para  %s",
   "minecraft_access.xp_indicator.decreased": "Xp do jogador diminuiu para %s",
   "minecraft_access.other.hotbar": "%s selecionado",
+  "minecraft_access.other.selected": "%s selecionado",
   "minecraft_access.other.biome": "Entrou no bioma %s",
   "minecraft_access.other.facing_direction": "Virado para %s",
   "minecraft_access.other.negative": "negativo %s",
