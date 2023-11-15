@@ -189,6 +189,7 @@
   "minecraft_access.gui.other_config_menu.button.health_n_hunger_button": "Tecla que diz a saúde e fome",
   "minecraft_access.gui.other_config_menu.button.position_narrator_button": "Posição do narrador",
   "minecraft_access.gui.other_config_menu.button.position_narrator_format_button": "Formato da Posição do Narrador",
+  "minecraft_access.gui.other_config_menu.button.command_suggestion_narrator_format_button": "Command Suggestion Narrator Format",
   "minecraft_access.gui.other_config_menu.button.use_12_hour_format_button": "Usar formato de 12 horas",
   "minecraft_access.gui.other_config_menu.button.speak_action_bar_button": "Falar atualizações das barras",
   "minecraft_access.gui.other_config_menu.button.speak_fishing_harvest_button": "Dizer o que pegou ao pescar",

@@ -189,6 +189,7 @@
   "minecraft_access.gui.other_config_menu.button.health_n_hunger_button": "朗读玩家生命与饥饿 按键",
   "minecraft_access.gui.other_config_menu.button.position_narrator_button": "朗读玩家位置",
   "minecraft_access.gui.other_config_menu.button.position_narrator_format_button": "玩家位置朗读格式",
+  "minecraft_access.gui.other_config_menu.button.command_suggestion_narrator_format_button": "命令提示朗读格式",
   "minecraft_access.gui.other_config_menu.button.use_12_hour_format_button": "使用十二小时制格式朗读时间",
   "minecraft_access.gui.other_config_menu.button.speak_action_bar_button": "朗读动作栏更新",
   "minecraft_access.gui.other_config_menu.button.speak_fishing_harvest_button": "朗读钓鱼收获",
