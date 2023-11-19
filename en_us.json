@@ -203,6 +203,8 @@
   "minecraft_access.gui.common.button.delay": "Delay (in milliseconds): %d",
   "minecraft_access.gui.common.button.range": "Range: %d",
   "minecraft_access.gui.common.button.volume": "Sound Volume: %f",
+  "minecraft_access.gui.common.button.min_volume": "Min Sound Volume: %f",
+  "minecraft_access.gui.common.button.max_volume": "Max Sound Volume: %f",
   "minecraft_access.gui.common.button.play_sound_toggle_button.enabled": "Play Sound: Enabled",
   "minecraft_access.gui.common.button.play_sound_toggle_button.disabled": "Play Sound: Disabled",
   "minecraft_access.gui.common.button.button_with_float_value": "%s: %f",

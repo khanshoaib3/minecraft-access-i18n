@@ -203,6 +203,8 @@
   "minecraft_access.gui.common.button.delay": "延迟 单位为毫秒： %d",
   "minecraft_access.gui.common.button.range": "范围： %d",
   "minecraft_access.gui.common.button.volume": "音量： %f",
+  "minecraft_access.gui.common.button.min_volume": "最小音量： %f",
+  "minecraft_access.gui.common.button.max_volume": "最大音量： %f",
   "minecraft_access.gui.common.button.play_sound_toggle_button.enabled": "播放音效： 已启用",
   "minecraft_access.gui.common.button.play_sound_toggle_button.disabled": "播放音效： 已停用",
   "minecraft_access.gui.common.button.button_with_float_value": "%s： %f",
