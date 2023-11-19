@@ -11,10 +11,7 @@ The naming of configuration files for the languages need to be the same as the "
 
 ### For pt_br
 
-| Key                                                      | English value       |
-|----------------------------------------------------------|---------------------|
-| minecraft_access.read_crosshair.redstone_wire_power      | %s, Power Level %d  |
-| minecraft_access.read_crosshair.redstone_wire_connection | %s, Connected to %s |
+[from 1.2.2](https://github.com/khanshoaib3/minecraft-access-i18n/compare/2f46b213...HEAD)
 
 [//]: # (### For zh_cn)
 
