@@ -172,6 +172,7 @@
   "minecraft_access.gui.read_crosshair_config_menu.button.speak_block_sides_button": "朗读方块方向",
   "minecraft_access.gui.read_crosshair_config_menu.button.disable_speaking_consecutive_blocks_button": "关闭连续相同方块的朗读",
   "minecraft_access.gui.read_crosshair_config_menu.button.repeat_speaking_interval_button": "重复朗读间隔 单位为毫秒 零为关闭",
+  "minecraft_access.gui.read_crosshair_config_menu.button.enable_relative_position_sound_cue": "启用相关位置音效",
   "minecraft_access.gui.read_crosshair_config_menu.button.partial_speaking_menu_button": "指定阅读方块/实体配置",
   "minecraft_access.gui.screen.rc_partial_speaking_menu": "指定阅读方块/实体 配置菜单",
   "minecraft_access.gui.rc_partial_speaking_menu.button.partial_speaking_fuzzy_mode_button": "模糊匹配模式",
