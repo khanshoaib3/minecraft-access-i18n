@@ -176,6 +176,8 @@
   "minecraft_access.gui.screen.rc_partial_speaking_menu": "Menu de configuração de fala parcial",
   "minecraft_access.gui.rc_partial_speaking_menu.button.partial_speaking_fuzzy_mode_button": "Modo de correspondência difusa",
   "minecraft_access.gui.rc_partial_speaking_menu.button.partial_speaking_whitelist_mode_button": "Modo lista branca",
+  "minecraft_access.gui.read_crosshair_config_menu.button.relative_position_sound_cue_menu_button": "Relative Position Sound Cue Configs",
+  "minecraft_access.gui.screen.relative_position_sound_cue_menu": "Relative Position Sound Cue Config Menu",
   "minecraft_access.gui.screen.narrator_menu_config_menu": "Menu de configurações do narrador",
   "minecraft_access.gui.narrator_menu_config_menu.button.fluid_detector_button": "Configurações de detector de fluídos",
   "minecraft_access.gui.screen.fluid_detector_config_menu": "Menu de configurações de fluídos",

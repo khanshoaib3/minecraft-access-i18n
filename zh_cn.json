@@ -176,6 +176,8 @@
   "minecraft_access.gui.screen.rc_partial_speaking_menu": "指定阅读方块/实体 配置菜单",
   "minecraft_access.gui.rc_partial_speaking_menu.button.partial_speaking_fuzzy_mode_button": "模糊匹配模式",
   "minecraft_access.gui.rc_partial_speaking_menu.button.partial_speaking_whitelist_mode_button": "白名单模式",
+  "minecraft_access.gui.read_crosshair_config_menu.button.relative_position_sound_cue_menu_button": "相关位置音效配置",
+  "minecraft_access.gui.screen.relative_position_sound_cue_menu": "相关位置音效 配置菜单",
   "minecraft_access.gui.screen.narrator_menu_config_menu": "朗读菜单 配置菜单",
   "minecraft_access.gui.narrator_menu_config_menu.button.fluid_detector_button": "流体检测配置",
   "minecraft_access.gui.screen.fluid_detector_config_menu": "流体检测 配置菜单",
