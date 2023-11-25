@@ -195,6 +195,7 @@
   "minecraft_access.gui.other_config_menu.button.use_12_hour_format_button": "Usar formato de 12 horas",
   "minecraft_access.gui.other_config_menu.button.speak_action_bar_button": "Falar atualizações das barras",
   "minecraft_access.gui.other_config_menu.button.speak_fishing_harvest_button": "Dizer o que pegou ao pescar",
+  "minecraft_access.gui.other_config_menu.button.report_held_items_count_when_changed_button": "Report Held Items Count When Changed",
   "minecraft_access.gui.other_config_menu.button.menu_fix_button": "Correção do menu",
   "minecraft_access.gui.other_config_menu.button.debug_mode_button": "Modo Debug",
   "minecraft_access.gui.common.button.feature_toggle_button.enabled": "Ativado",

@@ -195,6 +195,7 @@
   "minecraft_access.gui.other_config_menu.button.use_12_hour_format_button": "使用十二小时制格式朗读时间",
   "minecraft_access.gui.other_config_menu.button.speak_action_bar_button": "朗读动作栏更新",
   "minecraft_access.gui.other_config_menu.button.speak_fishing_harvest_button": "朗读钓鱼收获",
+  "minecraft_access.gui.other_config_menu.button.report_held_items_count_when_changed_button": "朗读持有物品的数量变化",
   "minecraft_access.gui.other_config_menu.button.menu_fix_button": "菜单朗读修复",
   "minecraft_access.gui.other_config_menu.button.debug_mode_button": "调试模式",
   "minecraft_access.gui.common.button.feature_toggle_button.enabled": "已启用",
