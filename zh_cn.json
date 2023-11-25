@@ -126,6 +126,7 @@
   "minecraft_access.read_crosshair.dislike_your_behavior": "%s 不喜欢你的行为",
   "minecraft_access.read_crosshair.shearable": "可剪毛 %s",
   "minecraft_access.read_crosshair.not_shearable": "不可剪毛 %s",
+  "minecraft_access.read_crosshair.zombie_villager_is_curing": "%s 正在被治愈",
   "minecraft_access.player_warnings.health_low": "警告，健康 %d ",
   "minecraft_access.player_warnings.hunger_low": "警告，饥饿 %d ",
   "minecraft_access.player_warnings.air_low": "警告，氧气 %d",
