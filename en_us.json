@@ -164,7 +164,7 @@
   "minecraft_access.gui.screen.poi_marking_config_menu": "Marking Feature Configs Menu",
   "minecraft_access.gui.poi_locking_config_menu.button.lock_on_blocks_button": "Lock on Blocks",
   "minecraft_access.gui.poi_locking_config_menu.button.speak_distance_button": "Speak Relative Distance to Entity/Block",
-  "minecraft_access.gui.poi_locking_config_menu.button.unlocking_sound_button": "Play Unlocking Sound",
+  "minecraft_access.gui.poi_locking_config_menu.button.unlocking_sound_button": "Play Sound Instead Of Speak",
   "minecraft_access.gui.poi_locking_config_menu.button.auto_lock_eye_of_ender_button": "Auto Lock on to Eye of Ender when Used",
   "minecraft_access.gui.poi_marking_config_menu.button.suppress_other_when_enabled_button": "Suppress Other POI Speaking And Locking When Marking On",
   "minecraft_access.gui.screen.player_warnings_config_menu": "Player Warnings Configs Menu",
