@@ -164,7 +164,7 @@
   "minecraft_access.gui.screen.poi_marking_config_menu": "标记功能 配置菜单",
   "minecraft_access.gui.poi_locking_config_menu.button.lock_on_blocks_button": "锁定方块",
   "minecraft_access.gui.poi_locking_config_menu.button.speak_distance_button": "朗读与方块/实体间的相对位置",
-  "minecraft_access.gui.poi_locking_config_menu.button.unlocking_sound_button": "播放解锁音效",
+  "minecraft_access.gui.poi_locking_config_menu.button.unlocking_sound_button": "播放解锁音效代替朗读",
   "minecraft_access.gui.poi_locking_config_menu.button.auto_lock_eye_of_ender_button": "自动锁定使用的末影之眼",
   "minecraft_access.gui.poi_marking_config_menu.button.suppress_other_when_enabled_button": "标记生效过程中，关闭其他 POI 朗读与锁定",
   "minecraft_access.gui.screen.player_warnings_config_menu": "玩家状态告警 配置菜单",
