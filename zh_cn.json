@@ -151,6 +151,7 @@
   "minecraft_access.gui.screen.inventory_controls_config_menu": "物品栏控制 配置菜单",
   "minecraft_access.gui.inventory_controls_config_menu.button.auto_open_recipe_book": "自动打开配方书",
   "minecraft_access.gui.inventory_controls_config_menu.button.row_and_column_format": "合成输入框 行与列格式",
+  "minecraft_access.gui.inventory_controls_config_menu.button.speak_focused_slot_changes": "朗读选中物品格的内容变化",
   "minecraft_access.gui.screen.poi_config_menu": "周边特殊要素 Point of Interests 配置菜单",
   "minecraft_access.gui.poi_config_menu.button.poi_blocks_button": "POI 方块配置",
   "minecraft_access.gui.poi_config_menu.button.poi_entities_button": "POI 实体配置",
