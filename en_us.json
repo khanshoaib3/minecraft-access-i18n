@@ -151,6 +151,7 @@
   "minecraft_access.gui.screen.inventory_controls_config_menu": "Inventory Controls Configs Menu",
   "minecraft_access.gui.inventory_controls_config_menu.button.auto_open_recipe_book": "Auto Open Recipe Book",
   "minecraft_access.gui.inventory_controls_config_menu.button.row_and_column_format": "Row and Column Format",
+  "minecraft_access.gui.inventory_controls_config_menu.button.speak_focused_slot_changes": "Speak Focused Slot Changes",
   "minecraft_access.gui.screen.poi_config_menu": "Points of Interests Configs Menu",
   "minecraft_access.gui.poi_config_menu.button.poi_blocks_button": "POI Blocks Configs",
   "minecraft_access.gui.poi_config_menu.button.poi_entities_button": "POI Entities Configs",
