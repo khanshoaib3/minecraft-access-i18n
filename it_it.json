@@ -286,6 +286,7 @@
   "minecraft_access.crop.half_ripe": "Mezzo maturo %s",
   "minecraft_access.crop.ripe": "Maturo %s",
   "minecraft_access.crop.wet_farmland": "Bagnato %s",
+  "minecraft_access.crop.water_logged": "%s intrisi d'acqua",
   "minecraft_access.book_edit.focus_moved_away": "Lo stato attivo si è allontanato dai pulsanti",
   "block.minecraft.flowing_water": "Acqua corrente",
   "block.minecraft.flowing_lava": "Scorre la lava"
