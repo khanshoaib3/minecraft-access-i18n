@@ -3,6 +3,7 @@
 NEW_TRANS_DIR=new_translation
 NOT_TRNAS_DIR=not_translated
 TEMP_DIR=temp
+INFO_FILE=$TEMP_DIR/statistic
 
 I18N_DIR=..
 # example values:
@@ -71,7 +72,8 @@ generate_untranslated_files_for_one_language() {
     i18n_file=$1
     name=$(i18n_name "$i18n_file")
     key_file=${TEMP_DIR}/${name}_keys
-    untrans_file=${NOT_TRNAS_DIR}/${name}_untranslated.txt
+    untrans_file_name=${name}_untranslated.txt
+    untrans_file=${NOT_TRNAS_DIR}/$untrans_file_name
 
     generate_untrans_key_file $i18n_file $key_file
     if [ $? -eq 1 ]; then
@@ -79,6 +81,13 @@ generate_untranslated_files_for_one_language() {
     fi
 
     generate_untrans_file $key_file $untrans_file
+
+    # add statistic info if is not default all-fields file
+    if [ $name = "un_un" ]; then
+        return 0
+    fi
+    untrans_field_num=$(wc -l $key_file | cut -d " " -f 1)
+    echo "$name $untrans_field_num $untrans_file_name .ci/$untrans_file" >>$INFO_FILE
 }
 
 generate_untrans_key_file() {
@@ -111,7 +120,7 @@ generate_untrans_file() {
 }
 
 merge_new_translations_back_to_i18n_files() {
-    new_files=$(ls $NEW_TRANS_DIR/*.txt)
+    new_files=$(ls -s $NEW_TRANS_DIR/*.txt 2>/dev/null)
     for f in $new_files; do
         merge_one_language $f
     done
@@ -143,13 +152,37 @@ merge_one_language() {
     fi
 }
 
+add_statistics_to_readme() {
+    readme_file=$I18N_DIR/README.md
+    temp=$TEMP_DIR/a
+
+    # remove previous statistic table
+    # print readme until
+    #
+    #```
+    # ## Untranslated Keys
+    #
+    #| Language | Untranslated Count | File |
+    #|----------|--------------------|------|
+    #```
+    awk '1;/Untranslated Keys/{flag=1;next}/---/{if (flag==1) exit}' $readme_file >$temp
+
+    while read -r line; do
+        echo $line | xargs printf "| %s | %d | [%s](%s) |\n" >>$temp
+    done <$INFO_FILE
+
+    mv $temp $readme_file
+}
+
 # -- main --
 
 rm_rf_directories_if_exists $TEMP_DIR $NOT_TRNAS_DIR
 create_directories_if_not_exists $TEMP_DIR $NEW_TRANS_DIR $NOT_TRNAS_DIR
+touch $INFO_FILE
 
 sort_all_i18n_files
 merge_new_translations_back_to_i18n_files
 generate_untranslated_files_for_each_language_except_en
+add_statistics_to_readme
 
 rm_rf_directories_if_exists $TEMP_DIR
