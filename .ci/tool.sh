@@ -52,7 +52,8 @@ diff_keys_between_two_json_files() {
 
 i18n_name() {
     # "../en_us.json" -> "en_us"
-    echo $1 | sed -E 's/.*\/([a-zA-Z]{2}_[a-zA-Z]{2})\.json/\1/'
+    # "new_trans/en_us_untrans.txt" -> "en_us"
+    echo $1 | sed -E 's/.*\/([a-zA-Z]{2}_[a-zA-Z]{2}).*/\1/'
 }
 
 generate_untranslated_files_for_each_language_except_en() {
@@ -70,7 +71,7 @@ generate_untranslated_files_for_one_language() {
     i18n_file=$1
     name=$(i18n_name "$i18n_file")
     key_file=${TEMP_DIR}/${name}_keys
-    untrans_file=${NOT_TRNAS_DIR}/${name}_untransalted.txt
+    untrans_file=${NOT_TRNAS_DIR}/${name}_untranslated.txt
 
     generate_untrans_key_file $i18n_file $key_file
     if [ $? -eq 1 ]; then
@@ -109,10 +110,46 @@ generate_untrans_file() {
     done <$key_file
 }
 
+merge_new_translations_back_to_i18n_files() {
+    new_files=$(ls $NEW_TRANS_DIR/*.txt)
+    for f in $new_files; do
+        merge_one_language $f
+    done
+}
+
+merge_one_language() {
+    new_file=$1
+    tempa=$TEMP_DIR/a
+    tempb=$TEMP_DIR/b
+
+    # extract every first (key) and third (translation) lines from new translation file,
+    # then combine them as {key},{translation}
+    awk 'NR%3==1 {first=$0} NR%3==0 {print first","$0}' $new_file >$tempa
+    # construct json from kv style
+    jq -R '[inputs|split(",")|{(.[0]):.[1]}] | add' $tempa >$tempb
+    # remove empty-value fields
+    jq 'del(.. | select(. == ""))' $tempb >$tempa
+
+    name=$(i18n_name "$new_file")
+    ori_file=$I18N_DIR/${name}.json
+
+    if [ -e $ori_file ]; then
+        # exist language, merge two jsons
+        jq -S -s '.[0] + .[1]' $ori_file $tempa >$tempb
+        mv $tempb $ori_file
+    else
+        # new language, create the i18n file
+        mv $tempa $ori_file
+    fi
+}
+
 # -- main --
 
 rm_rf_directories_if_exists $TEMP_DIR $NOT_TRNAS_DIR
 create_directories_if_not_exists $TEMP_DIR $NEW_TRANS_DIR $NOT_TRNAS_DIR
+
 sort_all_i18n_files
+merge_new_translations_back_to_i18n_files
 generate_untranslated_files_for_each_language_except_en
+
 rm_rf_directories_if_exists $TEMP_DIR
