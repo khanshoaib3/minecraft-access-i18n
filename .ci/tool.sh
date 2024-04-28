@@ -48,25 +48,43 @@ i18n_name() {
     echo $1 | sed -E 's/.*\/([a-zA-Z]{2}_[a-zA-Z]{2})\.json/\1/'
 }
 
-save_untranslated_keys_into_files() {
+work_on_each_language_except_en() {
     for f in $I18N_FILES_EXCEPT_EN; do
-        # f=../zh_cn.json, then key_file=temp/zh_cn_keys
-        name=$(i18n_name "$f")
-        key_file=${TEMP_DIR}/${name}_keys
-        # save diff into files
-        diff_keys_between_two_json_files $EN_I18N_FILE $f >$key_file
-
-        # rm if file is empty
-        if [ ! -s $key_file ]; then
-            rm -f $key_file
-        fi
-
+        work_on_one_language $f
     done
+}
+
+work_on_one_language() {
+    i18n_file=$1
+    name=$(i18n_name "$i18n_file")
+    key_file=${TEMP_DIR}/${name}_keys
+    untrans_file=${TEMP_DIR}/${name}_untrans.txt
+
+    generate_untrans_key_file $i18n_file $key_file
+    if [ $? -eq 1 ]; then
+        rm -f $key_file
+        return 0
+    fi
+
+    # generate_untrans_file $key_file $untrans_file
+}
+
+generate_untrans_key_file() {
+    i18n_file=$1
+    key_file=$2
+
+    # save diff into files
+    diff_keys_between_two_json_files $EN_I18N_FILE $i18n_file >$key_file
+
+    # if key file is empty, return early
+    if [ ! -s $key_file ]; then
+        return 1
+    fi
 }
 
 # -- main --
 
 rm_rf_directories_if_exists $TEMP_DIR
 create_directories_if_not_exists $TEMP_DIR $NEW_TRANS_DIR $NOT_TRNAS_DIR
-save_untranslated_keys_into_files
+work_on_each_language_except_en
 # rm_rf_directories_if_exists $TEMP_DIR
