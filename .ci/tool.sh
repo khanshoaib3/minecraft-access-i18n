@@ -35,12 +35,12 @@ diff_keys_between_two_json_files() {
     #  "minecraft_access.area_map.cursor_reset",
     #  ...
     comm -23 <(jq -S 'keys' $1) <(jq -S 'keys' $2) >$f
-    # remove two white spaces, commas and quotation marks:
+    # remove two white spaces, commas and quotes:
     #
     #minecraft_access.area_map.cursor_reach_bound
     #minecraft_access.area_map.cursor_reset
     #...
-    sed -E 's/\s\s"//' $f | sed -E 's/",//'
+    sed -E 's/\s{2}"([a-z_\\.]+).*/\1/' $f
 }
 
 i18n_name() {
@@ -49,6 +49,11 @@ i18n_name() {
 }
 
 work_on_each_language_except_en() {
+    # generate an untranslated file which contains all fields,
+    # for new language translation
+    echo "{\"a\":\"b\"}" > $TEMP_DIR/un_un.json
+    work_on_one_language $TEMP_DIR/un_un.json
+
     for f in $I18N_FILES_EXCEPT_EN; do
         work_on_one_language $f
     done
