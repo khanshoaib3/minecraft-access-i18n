@@ -48,18 +48,18 @@ i18n_name() {
     echo $1 | sed -E 's/.*\/([a-zA-Z]{2}_[a-zA-Z]{2})\.json/\1/'
 }
 
-work_on_each_language_except_en() {
+generate_untranslated_files_for_each_language_except_en() {
     # generate an untranslated file which contains all fields,
     # for new language translation
     echo "{\"a\":\"b\"}" > $TEMP_DIR/un_un.json
-    work_on_one_language $TEMP_DIR/un_un.json
+    generate_untranslated_files_for_one_language $TEMP_DIR/un_un.json
 
     for f in $I18N_FILES_EXCEPT_EN; do
-        work_on_one_language $f
+        generate_untranslated_files_for_one_language $f
     done
 }
 
-work_on_one_language() {
+generate_untranslated_files_for_one_language() {
     i18n_file=$1
     name=$(i18n_name "$i18n_file")
     key_file=${TEMP_DIR}/${name}_keys
@@ -106,5 +106,5 @@ generate_untrans_file() {
 
 rm_rf_directories_if_exists $TEMP_DIR $NOT_TRNAS_DIR
 create_directories_if_not_exists $TEMP_DIR $NEW_TRANS_DIR $NOT_TRNAS_DIR
-work_on_each_language_except_en
+generate_untranslated_files_for_each_language_except_en
 rm_rf_directories_if_exists $TEMP_DIR
