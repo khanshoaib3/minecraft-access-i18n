@@ -13,6 +13,13 @@ EN_I18N_FILE=$(echo $I18N_FILES | sed -E 's/\b.*(en_us\.json).*\b/\1/')
 # ../it_it.json ../pt_br.json ../zh_cn.json
 I18N_FILES_EXCEPT_EN=$(echo $I18N_FILES | sed -E 's/\s*.*en_us\.json\s//')
 
+sort_all_i18n_files() {
+    for f in $I18N_FILES; do
+        jq -S '.' $f >$TEMP_DIR/a
+        mv $TEMP_DIR/a $f
+    done
+}
+
 rm_rf_directories_if_exists() {
     for dir in "$@"; do
         if [ -e $dir ]; then
@@ -51,7 +58,7 @@ i18n_name() {
 generate_untranslated_files_for_each_language_except_en() {
     # generate an untranslated file which contains all fields,
     # for new language translation
-    echo "{\"a\":\"b\"}" > $TEMP_DIR/un_un.json
+    echo "{\"a\":\"b\"}" >$TEMP_DIR/un_un.json
     generate_untranslated_files_for_one_language $TEMP_DIR/un_un.json
 
     for f in $I18N_FILES_EXCEPT_EN; do
@@ -106,5 +113,6 @@ generate_untrans_file() {
 
 rm_rf_directories_if_exists $TEMP_DIR $NOT_TRNAS_DIR
 create_directories_if_not_exists $TEMP_DIR $NEW_TRANS_DIR $NOT_TRNAS_DIR
+sort_all_i18n_files
 generate_untranslated_files_for_each_language_except_en
 rm_rf_directories_if_exists $TEMP_DIR
