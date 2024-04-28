@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NEW_TRANS_DIR=new_translated
+NEW_TRANS_DIR=new_translation
 NOT_TRNAS_DIR=not_translated
 TEMP_DIR=temp
 
