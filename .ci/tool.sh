@@ -150,6 +150,9 @@ merge_one_language() {
         # new language, create the i18n file
         mv $tempa $ori_file
     fi
+
+    # delete new translation file after merging back
+    rm -f $new_file
 }
 
 add_statistics_to_readme() {
