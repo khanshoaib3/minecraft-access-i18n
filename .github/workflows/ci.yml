@@ -10,7 +10,7 @@ jobs:
     name: Sort, Merge, Generate, Commit
     runs-on: ubuntu-latest
     # Do not let this CI trigger itself
-    if: github.event.commit.author.email != "action@github.com"
+    if: github.event.commit.author.email != 'action@github.com'
     steps:
       - name: Checkout
         uses: actions/checkout@v3
