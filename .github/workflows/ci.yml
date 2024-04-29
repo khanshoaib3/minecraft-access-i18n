@@ -1,0 +1,59 @@
+name: Auto Merge and Generate Translation Files
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  auto:
+    permissions:
+      contents: write
+    name: Sort, Merge, Generate, Commit
+    runs-on: ubuntu-latest
+    # Do not let this CI trigger itself
+    if: github.event.commit.author.email != 'action@github.com'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Check Changed Files
+        uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          filters: |
+            trans:
+              - "*.json"
+              - ".ci/new_translation/*"
+
+      # Run only if translation files are changed
+      #
+      # The tool.sh uses jq to format json files,
+      # the jq tool is pre-installed in GitHub Action Servers.
+      # ref: https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2204-Readme.md#tools
+      #
+      # By the way, the Action Servers also have Python 3.10.2 installed,
+      # so next time (if there will be) I'll use Python instead of
+      # coding while learning shell script and command line tools...
+      - name: Auto Merge and Generate Translation Files
+        if: steps.changes.outputs.trans == 'true'
+        run: |
+          cd .ci
+          bash tool.sh
+          cd ..
+
+      # If (git diff-index --quiet HEAD) is 0, it means there is no change
+      # ref: https://stackoverflow.com/a/3899339/11397457
+      # set +e: disable the "exit on failure"
+      - name: Commit Changes
+        if: steps.changes.outputs.trans == 'true'
+        run: |
+          set +e
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff-index --quiet HEAD
+          if [ $? -ne 0 ]; then
+            git commit -m "chore: auto merge and generate translation files"
+            git push origin main
+          fi
