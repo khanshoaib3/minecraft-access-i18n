@@ -7,6 +7,8 @@ on:
 
 jobs:
   auto:
+    permissions:
+      contents: write
     name: Sort, Merge, Generate, Commit
     runs-on: ubuntu-latest
     # Do not let this CI trigger itself
