@@ -42,13 +42,16 @@ jobs:
 
       # If (git diff-index --quiet HEAD) is 0, it means there is no change
       # ref: https://stackoverflow.com/a/3899339/11397457
+      # set +e: disable the "exit on failure"
       - name: Commit Changes
         if: steps.changes.outputs.trans == 'true'
         run: |
+          set +e
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          if [ $(git diff-index --quiet HEAD) -ne 0 ]; then
+          git diff-index --quiet HEAD
+          if [ $? -ne 0 ]; then
             git commit -m "chore: auto merge and generate translation files"
             git push origin main
           fi
