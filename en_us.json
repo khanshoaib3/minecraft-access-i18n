@@ -31,7 +31,7 @@
   "minecraft_access.axolotl_variant.gold": "Gold",
   "minecraft_access.axolotl_variant.cyan": "Cyan",
   "minecraft_access.axolotl_variant.blue": "Blue",
-  "minecraft_access.animal_variant_format": "%s %s",
+  "minecraft_access.animal_variant_format": "{variant} {animal}",
   "minecraft_access.color.black": "Black",
   "minecraft_access.color.blue": "Blue",
   "minecraft_access.color.brown": "Brown",
