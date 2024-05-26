@@ -28,4 +28,5 @@ After finishing the translation, please put the translation file under `new_tran
 
 | Language | Untranslated Field Count | File |
 |----------|--------------------------|------|
-| pt_br | 31 | [pt_br_untranslated.txt](.ci/not_translated/pt_br_untranslated.txt) |
+| it_it | 27 | [it_it_untranslated.txt](.ci/not_translated/it_it_untranslated.txt) |
+| pt_br | 58 | [pt_br_untranslated.txt](.ci/not_translated/pt_br_untranslated.txt) |

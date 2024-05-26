@@ -16,8 +16,56 @@ Area Map Locked
 minecraft_access.area_map.map_unlock
 Area Map Unlocked
 
+minecraft_access.axolotl_variant.blue
+Blue
+
+minecraft_access.axolotl_variant.cyan
+Cyan
+
+minecraft_access.axolotl_variant.gold
+Gold
+
+minecraft_access.axolotl_variant.lucy
+Pink
+
+minecraft_access.axolotl_variant.wild
+Brown
+
 minecraft_access.book_edit.focus_moved_away
 Focus Moved Away From Buttons
+
+minecraft_access.cat_variant.black
+Black
+
+minecraft_access.cat_variant.british
+British
+
+minecraft_access.cat_variant.calico
+Calico
+
+minecraft_access.cat_variant.jellie
+American Shorthair
+
+minecraft_access.cat_variant.persian
+Persian
+
+minecraft_access.cat_variant.ragdoll
+Ragdoll
+
+minecraft_access.cat_variant.red
+Red
+
+minecraft_access.cat_variant.siamese
+Siamese
+
+minecraft_access.cat_variant.tabby
+Tabby
+
+minecraft_access.cat_variant.tuxedo
+Tuxedo
+
+minecraft_access.cat_variant.white
+White
 
 minecraft_access.color.black
 Black
@@ -643,6 +691,9 @@ Time is, %s P.M.
 minecraft_access.narrator_menu.xp
 Experience level is %s with %s progress
 
+minecraft_access.other.animal_variant_format
+{variant} {animal}
+
 minecraft_access.other.biome
 %s biome entered
 
@@ -651,6 +702,9 @@ Craftable
 
 minecraft_access.other.durability
 Durability: %s of %s
+
+minecraft_access.other.entity_with_equipments
+{entity} with {equipments}
 
 minecraft_access.other.facing_direction
 Facing %s
@@ -864,6 +918,33 @@ minecraft_access.util.position_difference_right
 
 minecraft_access.util.position_difference_up
 %s blocks up
+
+minecraft_access.wolf_variant.ashen
+Ashen
+
+minecraft_access.wolf_variant.black
+Black
+
+minecraft_access.wolf_variant.chestnut
+Chestnut
+
+minecraft_access.wolf_variant.pale
+Pale
+
+minecraft_access.wolf_variant.rusty
+Rusty
+
+minecraft_access.wolf_variant.snowy
+Snowy
+
+minecraft_access.wolf_variant.spotted
+Spotted
+
+minecraft_access.wolf_variant.striped
+Striped
+
+minecraft_access.wolf_variant.woods
+Woods
 
 minecraft_access.xp_indicator.decreased
 Player XP decreased to %s
