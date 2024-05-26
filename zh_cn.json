@@ -47,7 +47,7 @@
   "minecraft_access.axolotl_variant.gold": "金色",
   "minecraft_access.axolotl_variant.cyan": "青色",
   "minecraft_access.axolotl_variant.blue": "蓝色",
-  "minecraft_access.animal_variant_format": "{variant}{animal}",
+  "minecraft_access.other.animal_variant_format": "{variant}{animal}",
   "minecraft_access.other.entity_with_equipments": "{entity} 穿着 {equipments}",
   "minecraft_access.crop.half_ripe": "半成熟 %s",
   "minecraft_access.crop.ripe": "成熟 %s",
