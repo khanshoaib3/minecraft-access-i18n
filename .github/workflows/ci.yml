@@ -1,21 +1,77 @@
-name: Auto Merge and Generate Translation Files
+# Triggered by "/fast-forward" comment in PR.
+# Copied from https://github.com/khanshoaib3/stardew-access/blob/development/.github/workflows/fast-forward.yml
+name: Fast-forward and Auto Merge and Generate Translation Files
 
 on:
-  push:
-    branches:
-      - main
+  issue_comment:
+    types: [ created, edited ]
 
 jobs:
   auto:
     permissions:
+      issues: write
+      pull-requests: write
       contents: write
     name: Sort, Merge, Generate, Commit
     runs-on: ubuntu-latest
-    # Do not let this CI trigger itself
-    if: github.event.commit.author.email != 'action@github.com'
+
+    # Only run the job if:-
+    # 1. It is a pull request
+    # 2. It's not closed
+    # 3. The comment was by the owner or one of the collaborator
+    # 4. The comment message is "/fast-forward"
+    if: |
+      github.event.issue.pull_request &&
+      !github.event.issue.closed_at &&
+      github.event.issue.state == 'open' &&
+      (github.event.comment.author_association == 'OWNER' || github.event.comment.author_association == 'COLLABORATOR') && 
+      contains(github.event.comment.body, '/fast-forward')
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # API: https://docs.github.com/en/rest/pulls/pulls?apiVersion=2022-11-28#get-a-pull-request
+      - name: Get PR details
+        uses: octokit/request-action@v2.x
+        id: get-pr-details
+        with:
+          route: GET /repos/{repository}/pulls/{pull_number}
+          repository: ${{ github.repository }}
+          pull_number: ${{ github.event.issue.number }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Set environment variables
+        run: |
+          MERGE_STATUS=${{ fromJson(steps.get-pr-details.outputs.data).mergeable }}
+          if $MERGE_STATUS; then echo "COMMENT=\[Fast Forward CI\] ${{ env.HEAD_REF }} cannot be merged into ${{ env.BASE_REF }} at the moment." >> $GITHUB_ENV; fi
+          echo "MERGE_STATUS=$MERGE_STATUS" >> $GITHUB_ENV
+          echo "BASE_REF=${{ fromJson(steps.get-pr-details.outputs.data).base.ref }}" >> $GITHUB_ENV
+          echo "HEAD_REF=${{ fromJson(steps.get-pr-details.outputs.data).head.ref }}" >> $GITHUB_ENV
+
+      # Merges the head branch into base branch
+      # Only runs if the merge status is "clean", clean might refer to when the merge button is green in the PR's page, there's no clear indication of it's values in docs
+      # For forks the following script adds the fork as a remote, them merges it into base
+      - name: Merge the head branch into base in a fast forward manner only
+        if: ${{ env.MERGE_STATUS }}
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git checkout ${{ env.BASE_REF }}
+          git pull origin ${{ env.BASE_REF }}
+          if ${{ fromJson(steps.get-pr-details.outputs.data).head.repo.fork }}; then
+            USER_NAME=${{ fromJson(steps.get-pr-details.outputs.data).head.user.login }}
+            git remote add $USER_NAME ${{ fromJson(steps.get-pr-details.outputs.data).head.repo.clone_url }}
+            git pull $USER_NAME ${{ env.HEAD_REF }}
+            git merge --ff-only $USER_NAME/${{ env.HEAD_REF }}
+          else
+            git pull origin ${{ env.HEAD_REF }}
+            git merge --ff-only origin/${{ env.HEAD_REF }}
+          fi
+          echo "COMMENT=\[Fast Forward CI\] ${{ env.HEAD_REF }} merged into ${{ env.BASE_REF }}..." >> $GITHUB_ENV          
 
       - name: Check Changed Files
         uses: dorny/paths-filter@v3
@@ -49,11 +105,37 @@ jobs:
         if: steps.changes.outputs.trans == 'true'
         run: |
           set +e
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git add .
           git diff-index --quiet HEAD
           if [ $? -ne 0 ]; then
             git commit -m "chore: auto merge and generate translation files"
-            git push origin main
           fi
+
+      - name: Push to origin
+        if: ${{ env.MERGE_STATUS }}
+        run: |
+          git push origin
+          echo "COMMENT=${{ env.COMMENT }} Pushed the changes to origin." >> $GITHUB_ENV
+
+      # Post a success/failure comment to the PR.
+      - name: Add success/failure comment to PR
+        uses: octokit/request-action@v2.x
+        with:
+          route: POST /repos/{repository}/issues/{issue_number}/comments
+          repository: ${{ github.repository }}
+          issue_number: ${{ github.event.issue.number }}
+          body: ${{ env.COMMENT }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      # Post a failure message when any of the previous steps fail.
+      - name: Add failure comment to PR
+        if: ${{ failure() }}
+        uses: octokit/request-action@v2.x
+        with:
+          route: POST /repos/{repository}/issues/{issue_number}/comments
+          repository: ${{ github.repository }}
+          issue_number: ${{ github.event.issue.number }}
+          body: \[Fast Forward CI\] PR cannot be merged in. Check the Actions tab for details.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
