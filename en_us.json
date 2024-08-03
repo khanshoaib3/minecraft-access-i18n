@@ -54,6 +54,7 @@
   "minecraft_access.direction.straight": "Straight",
   "minecraft_access.direction.up": "Up",
   "minecraft_access.direction.west": "West",
+  "minecraft_access.direction.degrees": "%d Degrees",
   "minecraft_access.gui.area_map_config_menu.button.horizontal_bound": "Horizontal Distance Bound",
   "minecraft_access.gui.area_map_config_menu.button.vertical_bound": "Vertical Distance Bound",
   "minecraft_access.gui.camera_controls_config_menu.button.modified_rotating_angle": "Modified Rotating Angle",

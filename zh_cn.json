@@ -54,6 +54,7 @@
   "minecraft_access.direction.straight": "前",
   "minecraft_access.direction.up": "上",
   "minecraft_access.direction.west": "西",
+  "minecraft_access.direction.degrees": "%d 度",
   "minecraft_access.gui.area_map_config_menu.button.horizontal_bound": "水平距离限制",
   "minecraft_access.gui.area_map_config_menu.button.vertical_bound": "垂直距离限制",
   "minecraft_access.gui.camera_controls_config_menu.button.modified_rotating_angle": "修改后转向角度",
