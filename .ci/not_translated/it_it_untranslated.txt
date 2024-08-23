@@ -46,11 +46,26 @@ Tuxedo
 minecraft_access.cat_variant.white
 White
 
+minecraft_access.direction.degrees
+%d Degrees
+
 minecraft_access.other.animal_variant_format
 {variant} {animal}
 
 minecraft_access.other.entity_with_equipments
 {entity} with {equipments}
+
+minecraft_access.perspective.first_person
+First Person
+
+minecraft_access.perspective.third_person_back
+Third Person Back
+
+minecraft_access.perspective.third_person_front
+Third Person Front
+
+minecraft_access.set_perspective
+Perspective set to: %s
 
 minecraft_access.wolf_variant.ashen
 Ashen

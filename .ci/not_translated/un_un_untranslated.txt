@@ -130,6 +130,9 @@ Water Logged %s
 minecraft_access.crop.wet_farmland
 Wet %s
 
+minecraft_access.direction.degrees
+%d Degrees
+
 minecraft_access.direction.down
 Down
 
@@ -727,6 +730,15 @@ minecraft_access.other.selected
 minecraft_access.other.words_connection
 , 
 
+minecraft_access.perspective.first_person
+First Person
+
+minecraft_access.perspective.third_person_back
+Third Person Back
+
+minecraft_access.perspective.third_person_front
+Third Person Front
+
 minecraft_access.player_warnings.air_low
 Warning, Air is %d
 
@@ -822,6 +834,9 @@ minecraft_access.read_crosshair.sign_front_content
 
 minecraft_access.read_crosshair.zombie_villager_is_curing
 %s is Curing
+
+minecraft_access.set_perspective
+Perspective set to: %s
 
 minecraft_access.slot_group.armour
 Armour

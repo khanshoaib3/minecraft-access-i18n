@@ -61,6 +61,9 @@ White
 minecraft_access.crop.water_logged
 Water Logged %s
 
+minecraft_access.direction.degrees
+%d Degrees
+
 minecraft_access.gui.area_map_config_menu.button.horizontal_bound
 Horizontal Distance Bound
 
@@ -130,6 +133,15 @@ minecraft_access.other.animal_variant_format
 minecraft_access.other.entity_with_equipments
 {entity} with {equipments}
 
+minecraft_access.perspective.first_person
+First Person
+
+minecraft_access.perspective.third_person_back
+Third Person Back
+
+minecraft_access.perspective.third_person_front
+Third Person Front
+
 minecraft_access.read_crosshair.dislike_your_behavior
 %s dislikes Your Behavior
 
@@ -144,6 +156,9 @@ minecraft_access.read_crosshair.like_your_behavior
 
 minecraft_access.read_crosshair.zombie_villager_is_curing
 %s is Curing
+
+minecraft_access.set_perspective
+Perspective set to: %s
 
 minecraft_access.wolf_variant.ashen
 Ashen
