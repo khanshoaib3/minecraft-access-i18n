@@ -87,6 +87,7 @@ jobs:
             trans:
               - "*.json"
               - ".ci/new_translation/*"
+          ref: ${{ env.HEAD_REF }}
 
       # Run only if translation files are changed
       #
