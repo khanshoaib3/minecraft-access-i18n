@@ -49,6 +49,15 @@ White
 minecraft_access.direction.degrees
 %d Degrees
 
+minecraft_access.gui.poi_locking_config_menu.button.aim_assist_audio_cues_button
+Aim assist audio cues
+
+minecraft_access.gui.poi_locking_config_menu.button.aim_assist_audio_cues_volume
+Aim assist sound volume: %f
+
+minecraft_access.gui.poi_locking_config_menu.button.aim_assist_button
+Bow aim assist
+
 minecraft_access.other.animal_variant_format
 {variant} {animal}
 

@@ -346,6 +346,15 @@ Locking Feature Configs
 minecraft_access.gui.poi_config_menu.button.poi_marking_button
 Marking Feature Configs
 
+minecraft_access.gui.poi_locking_config_menu.button.aim_assist_audio_cues_button
+Aim assist audio cues
+
+minecraft_access.gui.poi_locking_config_menu.button.aim_assist_audio_cues_volume
+Aim assist sound volume: %f
+
+minecraft_access.gui.poi_locking_config_menu.button.aim_assist_button
+Bow aim assist
+
 minecraft_access.gui.poi_locking_config_menu.button.auto_lock_eye_of_ender_button
 Auto Lock on to Eye of Ender when Used
 

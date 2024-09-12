@@ -88,6 +88,15 @@ Only Speak Action Bar Updates
 minecraft_access.gui.other_config_menu.button.report_held_items_count_when_changed_button
 Report Held Items Count When Changed
 
+minecraft_access.gui.poi_locking_config_menu.button.aim_assist_audio_cues_button
+Aim assist audio cues
+
+minecraft_access.gui.poi_locking_config_menu.button.aim_assist_audio_cues_volume
+Aim assist sound volume: %f
+
+minecraft_access.gui.poi_locking_config_menu.button.aim_assist_button
+Bow aim assist
+
 minecraft_access.gui.read_crosshair_config_menu.button.relative_position_sound_cue_menu_button
 Relative Position Sound Cue Configs
 
