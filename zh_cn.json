@@ -321,5 +321,12 @@
   "minecraft_access.wolf_variant.striped": "条纹",
   "minecraft_access.wolf_variant.woods": "森林",
   "minecraft_access.xp_indicator.decreased": "玩家经验等级降低至 %s",
-  "minecraft_access.xp_indicator.increased": "玩家经验等级增加到 %s"
+  "minecraft_access.xp_indicator.increased": "玩家经验等级增加到 %s",
+  "minecraft_access.gui.poi_locking_config_menu.button.aim_assist_button": "拉弓辅助标准",
+  "minecraft_access.gui.poi_locking_config_menu.button.aim_assist_audio_cues_button": "拉弓辅助瞄准音效",
+  "minecraft_access.gui.poi_locking_config_menu.button.aim_assist_audio_cues_volume": "拉弓辅助瞄准音量：%f",
+  "minecraft_access.gui.config_menu.button.speech_settings_button": "语音设置配置",
+  "minecraft_access.gui.screen.speech_settings_config_menu": "语音设置配置菜单",
+  "minecraft_access.gui.speech_settings_config_menu.button.speech_rate": "语音速度（百分比）",
+  "minecraft_access.messages.accessibility_permission_not_granted": "尚未开启辅助功能权限，因此鼠标模拟将无法工作。请查看 MacOS Mod 安装文档以了解如何启用该功能。"
 }
