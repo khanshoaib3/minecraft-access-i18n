@@ -76,6 +76,9 @@ Max Sound Volume: %f
 minecraft_access.gui.common.button.min_volume
 Min Sound Volume: %f
 
+minecraft_access.gui.config_menu.button.speech_settings_button
+Speech Settings Configs
+
 minecraft_access.gui.inventory_controls_config_menu.button.speak_focused_slot_changes
 Speak Focused Slot Changes
 
@@ -106,6 +109,12 @@ Area Map Configs Menu
 minecraft_access.gui.screen.relative_position_sound_cue_menu
 Relative Position Sound Cue Config Menu
 
+minecraft_access.gui.screen.speech_settings_config_menu
+Speech Settings Configs Menu
+
+minecraft_access.gui.speech_settings_config_menu.button.speech_rate
+Speech Rate (percent)
+
 minecraft_access.keys.area_map.cursor_reset_key_name
 h. Cursor Reset Key
 
@@ -135,6 +144,9 @@ f. Cursor Up Key
 
 minecraft_access.keys.area_map.west_key_name
 d. Cursor West Key
+
+minecraft_access.messages.accessibility_permission_not_granted
+The accessibility permission has not been granted, so mouse simulation will not work. Check docs slash setup slash MacOS dot md in the Github repository for instructions on how to enable it.
 
 minecraft_access.other.animal_variant_format
 {variant} {animal}

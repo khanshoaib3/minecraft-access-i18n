@@ -49,6 +49,9 @@ White
 minecraft_access.direction.degrees
 %d Degrees
 
+minecraft_access.gui.config_menu.button.speech_settings_button
+Speech Settings Configs
+
 minecraft_access.gui.poi_locking_config_menu.button.aim_assist_audio_cues_button
 Aim assist audio cues
 
@@ -57,6 +60,15 @@ Aim assist sound volume: %f
 
 minecraft_access.gui.poi_locking_config_menu.button.aim_assist_button
 Bow aim assist
+
+minecraft_access.gui.screen.speech_settings_config_menu
+Speech Settings Configs Menu
+
+minecraft_access.gui.speech_settings_config_menu.button.speech_rate
+Speech Rate (percent)
+
+minecraft_access.messages.accessibility_permission_not_granted
+The accessibility permission has not been granted, so mouse simulation will not work. Check docs slash setup slash MacOS dot md in the Github repository for instructions on how to enable it.
 
 minecraft_access.other.animal_variant_format
 {variant} {animal}
