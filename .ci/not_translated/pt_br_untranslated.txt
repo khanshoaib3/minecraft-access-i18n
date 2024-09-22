@@ -116,34 +116,64 @@ minecraft_access.gui.speech_settings_config_menu.button.speech_rate
 Speech Rate (percent)
 
 minecraft_access.keys.area_map.cursor_reset_key_name
-h. Cursor Reset Key
+Reset Cursor
 
 minecraft_access.keys.area_map.down_key_name
-g. Cursor Down Key
+Move Cursor Down
 
 minecraft_access.keys.area_map.east_key_name
-e. Cursor East Key
+Move Cursor East
 
 minecraft_access.keys.area_map.group_name
 Minecraft Access: Area Map
 
 minecraft_access.keys.area_map.map_lock_key_name
-i. Map Lock Key
+Lock Map
 
 minecraft_access.keys.area_map.menu_key_name
-a. Open Area Map Menu
+Open Area Map Menu
 
 minecraft_access.keys.area_map.north_key_name
-b. Cursor North Key
+Move Cursor North
 
 minecraft_access.keys.area_map.south_key_name
-c. Cursor South Key
+Move Cursor South
 
 minecraft_access.keys.area_map.up_key_name
-f. Cursor Up Key
+Move Cursor Up
 
 minecraft_access.keys.area_map.west_key_name
-d. Cursor West Key
+Move Cursor West
+
+minecraft_access.keys.other.closest_lava_source_name
+Find Closest Lava Source
+
+minecraft_access.keys.other.closest_water_source_name
+Find Closest Water Source
+
+minecraft_access.keys.other.current_biome_name
+Speak Current Biome
+
+minecraft_access.keys.other.light_level_name
+Speak Light Level
+
+minecraft_access.keys.other.narrate_target_name
+Narrate target
+
+minecraft_access.keys.other.open_config_menu_name
+Open config menu
+
+minecraft_access.keys.other.refresh_screen_reader_name
+Refresh Screen Reader
+
+minecraft_access.keys.other.target_position_name
+Speak Target Position
+
+minecraft_access.keys.other.time_of_day_name
+Speak Time of Day
+
+minecraft_access.keys.other.xp_level_name
+Speak XP Level
 
 minecraft_access.messages.accessibility_permission_not_granted
 The accessibility permission has not been granted, so mouse simulation will not work. Check docs slash setup slash MacOS dot md in the Github repository for instructions on how to enable it.

@@ -236,7 +236,7 @@ minecraft_access.gui.config_menu.button.mouse_simulation_button
 Mouse Simulation Configs
 
 minecraft_access.gui.config_menu.button.narrator_menu_button
-Narrator Menu Configs
+Access Menu Configs
 
 minecraft_access.gui.config_menu.button.other_button
 Other Configs
@@ -422,7 +422,7 @@ minecraft_access.gui.screen.mouse_simulation_config_menu
 Mouse Simulation Config Menu
 
 minecraft_access.gui.screen.narrator_menu_config_menu
-Narrator Menu Configs Menu
+Access Menu Configs Menu
 
 minecraft_access.gui.screen.other_config_menu
 Other Configs Menu
@@ -506,148 +506,172 @@ minecraft_access.inventory_controls.trade_text_format_with_second_item
 Trade %s and %s for %s
 
 minecraft_access.keys.area_map.cursor_reset_key_name
-h. Cursor Reset Key
+Reset Cursor
 
 minecraft_access.keys.area_map.down_key_name
-g. Cursor Down Key
+Move Cursor Down
 
 minecraft_access.keys.area_map.east_key_name
-e. Cursor East Key
+Move Cursor East
 
 minecraft_access.keys.area_map.group_name
 Minecraft Access: Area Map
 
 minecraft_access.keys.area_map.map_lock_key_name
-i. Map Lock Key
+Lock Map
 
 minecraft_access.keys.area_map.menu_key_name
-a. Open Area Map Menu
+Open Area Map Menu
 
 minecraft_access.keys.area_map.north_key_name
-b. Cursor North Key
+Move Cursor North
 
 minecraft_access.keys.area_map.south_key_name
-c. Cursor South Key
+Move Cursor South
 
 minecraft_access.keys.area_map.up_key_name
-f. Cursor Up Key
+Move Cursor Up
 
 minecraft_access.keys.area_map.west_key_name
-d. Cursor West Key
+Move Cursor West
 
 minecraft_access.keys.camera_controls.alternate_down_key_name
-g. Alternate Look Down Key
+Alternate Look Down
 
 minecraft_access.keys.camera_controls.alternate_left_key_name
-h. Alternate Look Left Key
+Alternate Look Left
 
 minecraft_access.keys.camera_controls.alternate_right_key_name
-f. Alternate Look Right Key
+Alternate Look Right
 
 minecraft_access.keys.camera_controls.alternate_up_key_name
-e. Alternate Look Up Key
+Alternate Look Up
 
 minecraft_access.keys.camera_controls.center_camera_key_name
-m. Center Camera Key
+Look Straight Forward
 
 minecraft_access.keys.camera_controls.down_key_name
-c. Look Down Key
+Look Down
 
 minecraft_access.keys.camera_controls.east_key_name
-j. Look East Key
+Look Directly East
 
 minecraft_access.keys.camera_controls.group_name
 Minecraft Access: Camera Controls
 
 minecraft_access.keys.camera_controls.left_key_name
-d. Look Left Key
+Look Left
 
 minecraft_access.keys.camera_controls.north_key_name
-i. Look North Key
+Look Directly North
 
 minecraft_access.keys.camera_controls.right_key_name
-b. Look Right Key
+Look Right
 
 minecraft_access.keys.camera_controls.south_key_name
-l. Look South Key
+Look Directly South
 
 minecraft_access.keys.camera_controls.straight_down_camera_key_name
-o. Look Straight Down Key
+Look Straight Down
 
 minecraft_access.keys.camera_controls.straight_up_camera_key_name
-n. Look Straight Up Key
+Look Straight Up
 
 minecraft_access.keys.camera_controls.up_key_name
-a. Look Up Key
+Look Up
 
 minecraft_access.keys.camera_controls.west_key_name
-k. Look West Key
+Look Directly West
 
 minecraft_access.keys.inventory_controls.change_group_key_name
-a. Change Group Key
+Change Group
 
 minecraft_access.keys.inventory_controls.down_key_name
-f. Down Key
+Inventory Cursor Down
 
 minecraft_access.keys.inventory_controls.group_name
 Minecraft Access: Inventory Controls
 
 minecraft_access.keys.inventory_controls.left_key_name
-g. Left Key
+Inventory Cursor Left
 
 minecraft_access.keys.inventory_controls.right_key_name
-e. Right Key
+Inventory Cursor Right
 
 minecraft_access.keys.inventory_controls.switch_tabs_key_name
-b. Switch Tabs Key
+Switch Tabs
 
 minecraft_access.keys.inventory_controls.toggle_craftable_key_name
-c. Toggle Craftable Key
+Toggle Craftable
 
 minecraft_access.keys.inventory_controls.up_key_name
-d. Up Key
+Inventory Cursor Up
 
 minecraft_access.keys.mouse_simulation.group_name
 Minecraft Access: Mouse Simulation
 
 minecraft_access.keys.mouse_simulation.left_key_name
-a. Left Mouse Sim Key
+Left Mouse Sim
 
 minecraft_access.keys.mouse_simulation.middle_key_name
-b. Middle Mouse Sim Key
+Middle Mouse Sim
 
 minecraft_access.keys.mouse_simulation.right_key_name
-c. Right Mouse Sim Key
+Right Mouse Sim
 
 minecraft_access.keys.mouse_simulation.scroll_down_key_name
-e. Mouse Wheel Scroll Down Key
+Mouse Wheel Scroll Down
 
 minecraft_access.keys.mouse_simulation.scroll_up_key_name
-d. Mouse Wheel Scroll Up Key
+Mouse Wheel Scroll Up
+
+minecraft_access.keys.other.closest_lava_source_name
+Find Closest Lava Source
+
+minecraft_access.keys.other.closest_water_source_name
+Find Closest Water Source
+
+minecraft_access.keys.other.current_biome_name
+Speak Current Biome
 
 minecraft_access.keys.other.facing_direction_key_name
-Speak Facing Direction Key
+Speak Facing Direction
 
 minecraft_access.keys.other.group_name
 Minecraft Access: Other Keybindings
 
 minecraft_access.keys.other.health_n_hunger_key_name
-Speak Player Health and Hunger Key
+Speak Player Health and Hunger
+
+minecraft_access.keys.other.light_level_name
+Speak Light Level
 
 minecraft_access.keys.other.locking_handler_key_name
-Lock Onto Nearby Block or Entity Key
+Lock Onto Nearby Block or Entity
 
-minecraft_access.keys.other.narrator_menu_hot_key_name
-Narrator Menu Hot Key
-
-minecraft_access.keys.other.narrator_menu_hot_key_switch
-%s Is Switched To Hot Key
+minecraft_access.keys.other.narrate_target_name
+Narrate target
 
 minecraft_access.keys.other.narrator_menu_key_name
-Narrator Menu Key
+Open Access Menu
+
+minecraft_access.keys.other.open_config_menu_name
+Open config menu
 
 minecraft_access.keys.other.player_position_key_name
-Speak Player Position Key
+Speak Player Position
+
+minecraft_access.keys.other.refresh_screen_reader_name
+Refresh Screen Reader
+
+minecraft_access.keys.other.target_position_name
+Speak Target Position
+
+minecraft_access.keys.other.time_of_day_name
+Speak Time of Day
+
+minecraft_access.keys.other.xp_level_name
+Speak XP Level
 
 minecraft_access.menus.book_screen.next_page_button_name
 Next Page
@@ -662,7 +686,7 @@ minecraft_access.narrator_menu.biome
 %s biome
 
 minecraft_access.narrator_menu.gui.button.biome
-6. Biome
+6. Current Biome
 
 minecraft_access.narrator_menu.gui.button.block_and_fluid_target_info
 1. Block and Fluid target information
@@ -695,7 +719,7 @@ minecraft_access.narrator_menu.gui.button.time_of_day
 7. Time of Day
 
 minecraft_access.narrator_menu.gui.button.xp
-8. XP
+8. XP Level
 
 minecraft_access.narrator_menu.light_level
 Light level is, %s
