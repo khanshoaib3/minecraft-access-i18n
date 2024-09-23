@@ -928,8 +928,8 @@ Item Output
 minecraft_access.slot_group.lapis_lazuli_input
 Lapis Lazuli Input
 
-minecraft_access.slot_group.netherite_ingot_input
-Netherite Ingot Input
+minecraft_access.slot_group.material_input
+Material Input
 
 minecraft_access.slot_group.off_hand
 Off Hand
@@ -951,6 +951,9 @@ Recipes
 
 minecraft_access.slot_group.secondary_beacon_powers_buttons
 Secondary Beacon Powers Buttons
+
+minecraft_access.slot_group.smithing_template_input
+Smithing Template Input
 
 minecraft_access.slot_group.tab_inventory
 Tab Inventory

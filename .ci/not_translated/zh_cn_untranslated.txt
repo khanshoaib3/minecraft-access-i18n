@@ -28,3 +28,9 @@ Speak Time of Day
 minecraft_access.keys.other.xp_level_name
 Speak XP Level
 
+minecraft_access.slot_group.material_input
+Material Input
+
+minecraft_access.slot_group.smithing_template_input
+Smithing Template Input
+

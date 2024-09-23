@@ -118,6 +118,12 @@ Third Person Front
 minecraft_access.set_perspective
 Perspective set to: %s
 
+minecraft_access.slot_group.material_input
+Material Input
+
+minecraft_access.slot_group.smithing_template_input
+Smithing Template Input
+
 minecraft_access.wolf_variant.ashen
 Ashen
 
