@@ -235,7 +235,7 @@ Inventory Controls Configs
 minecraft_access.gui.config_menu.button.mouse_simulation_button
 Mouse Simulation Configs
 
-minecraft_access.gui.config_menu.button.narrator_menu_button
+minecraft_access.gui.config_menu.button.access_menu_button
 Access Menu Configs
 
 minecraft_access.gui.config_menu.button.other_button
@@ -274,7 +274,7 @@ Row and Column Format
 minecraft_access.gui.inventory_controls_config_menu.button.speak_focused_slot_changes
 Speak Focused Slot Changes
 
-minecraft_access.gui.narrator_menu_config_menu.button.fluid_detector_button
+minecraft_access.gui.access_menu_config_menu.button.fluid_detector_button
 Fluid Detector Configs
 
 minecraft_access.gui.other_config_menu.button.biome_indicator_button
@@ -427,7 +427,7 @@ Inventory Controls Configs Menu
 minecraft_access.gui.screen.mouse_simulation_config_menu
 Mouse Simulation Config Menu
 
-minecraft_access.gui.screen.narrator_menu_config_menu
+minecraft_access.gui.screen.access_menu_config_menu
 Access Menu Configs Menu
 
 minecraft_access.gui.screen.other_config_menu
@@ -658,7 +658,7 @@ Lock Onto Nearby Block or Entity
 minecraft_access.keys.other.narrate_target_name
 Narrate target
 
-minecraft_access.keys.other.narrator_menu_key_name
+minecraft_access.keys.other.access_menu_key_name
 Open Access Menu
 
 minecraft_access.keys.other.open_config_menu_name
@@ -688,61 +688,61 @@ Previous Page
 minecraft_access.messages.accessibility_permission_not_granted
 The accessibility permission has not been granted, so mouse simulation will not work. Check docs slash setup slash MacOS dot md in the Github repository for instructions on how to enable it.
 
-minecraft_access.narrator_menu.biome
+minecraft_access.access_menu.biome
 %s biome
 
-minecraft_access.narrator_menu.gui.button.biome
+minecraft_access.access_menu.gui.button.biome
 6. Current Biome
 
-minecraft_access.narrator_menu.gui.button.block_and_fluid_target_info
+minecraft_access.access_menu.gui.button.block_and_fluid_target_info
 1. Block and Fluid target information
 
-minecraft_access.narrator_menu.gui.button.block_and_fluid_target_position
+minecraft_access.access_menu.gui.button.block_and_fluid_target_position
 2. Block and Fluid target position
 
-minecraft_access.narrator_menu.gui.button.entity_target_info
+minecraft_access.access_menu.gui.button.entity_target_info
 Entity target information
 
-minecraft_access.narrator_menu.gui.button.entity_target_position
+minecraft_access.access_menu.gui.button.entity_target_position
 Entity target position
 
-minecraft_access.narrator_menu.gui.button.find_lava
+minecraft_access.access_menu.gui.button.find_lava
 5. Find Closest Lava Source
 
-minecraft_access.narrator_menu.gui.button.find_water
+minecraft_access.access_menu.gui.button.find_water
 4. Find Closest Water Source
 
-minecraft_access.narrator_menu.gui.button.light_level
+minecraft_access.access_menu.gui.button.light_level
 3. Light Level
 
-minecraft_access.narrator_menu.gui.button.open_config_menu
+minecraft_access.access_menu.gui.button.open_config_menu
 0. Open Config Menu
 
-minecraft_access.narrator_menu.gui.button.refresh_screen_reader
+minecraft_access.access_menu.gui.button.refresh_screen_reader
 9. Refresh Screen Reader
 
-minecraft_access.narrator_menu.gui.button.time_of_day
+minecraft_access.access_menu.gui.button.time_of_day
 7. Time of Day
 
-minecraft_access.narrator_menu.gui.button.xp
+minecraft_access.access_menu.gui.button.xp
 8. XP Level
 
-minecraft_access.narrator_menu.light_level
+minecraft_access.access_menu.light_level
 Light level is, %s
 
-minecraft_access.narrator_menu.target_missed
+minecraft_access.access_menu.target_missed
 Too far
 
-minecraft_access.narrator_menu.time_of_day
+minecraft_access.access_menu.time_of_day
 Time is, %s
 
-minecraft_access.narrator_menu.time_of_day_am
+minecraft_access.access_menu.time_of_day_am
 Time is, %s A.M.
 
-minecraft_access.narrator_menu.time_of_day_pm
+minecraft_access.access_menu.time_of_day_pm
 Time is, %s P.M.
 
-minecraft_access.narrator_menu.xp
+minecraft_access.access_menu.xp
 Experience level is %s with %s progress
 
 minecraft_access.other.animal_variant_format
