@@ -131,6 +131,8 @@
   "minecraft_access.gui.read_crosshair_config_menu.button.relative_position_sound_cue_menu_button": "Relative Position Sound Cue Configs",
   "minecraft_access.gui.read_crosshair_config_menu.button.repeat_speaking_interval_button": "Repeat Speaking Interval (in milliseconds) (0 to disable)",
   "minecraft_access.gui.read_crosshair_config_menu.button.speak_block_sides_button": "Speak Block Sides",
+  "minecraft_access.gui.read_crosshair_config_menu.button.use_jade_button": "Use Jade",
+  "minecraft_access.gui.read_crosshair_config_menu.button.use_jade_button.unavailable": "Use Jade: Unavailable",
   "minecraft_access.gui.screen.area_map_config_menu": "Area Map Configs Menu",
   "minecraft_access.gui.screen.area_map_menu": "Area Map Menu",
   "minecraft_access.gui.screen.camera_controls_config_menu": "Camera Controls Configs Menu",
