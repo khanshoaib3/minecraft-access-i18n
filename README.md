@@ -28,6 +28,6 @@ After finishing the translation, please put the translation file under `new_tran
 
 | Language | Untranslated Field Count | File |
 |----------|--------------------------|------|
-| it_it | 51 | [it_it_untranslated.txt](.ci/not_translated/it_it_untranslated.txt) |
-| pt_br | 82 | [pt_br_untranslated.txt](.ci/not_translated/pt_br_untranslated.txt) |
-| zh_cn | 12 | [zh_cn_untranslated.txt](.ci/not_translated/zh_cn_untranslated.txt) |
+| it_it | 53 | [it_it_untranslated.txt](.ci/not_translated/it_it_untranslated.txt) |
+| pt_br | 84 | [pt_br_untranslated.txt](.ci/not_translated/pt_br_untranslated.txt) |
+| zh_cn | 14 | [zh_cn_untranslated.txt](.ci/not_translated/zh_cn_untranslated.txt) |

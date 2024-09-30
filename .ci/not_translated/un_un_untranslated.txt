@@ -394,6 +394,12 @@ Repeat Speaking Interval (in milliseconds) (0 to disable)
 minecraft_access.gui.read_crosshair_config_menu.button.speak_block_sides_button
 Speak Block Sides
 
+minecraft_access.gui.read_crosshair_config_menu.button.use_jade_button
+Use Jade
+
+minecraft_access.gui.read_crosshair_config_menu.button.use_jade_button.unavailable
+Use Jade: Unavailable
+
 minecraft_access.gui.screen.area_map_config_menu
 Area Map Configs Menu
 

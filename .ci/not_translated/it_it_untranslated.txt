@@ -61,6 +61,12 @@ Aim assist sound volume: %f
 minecraft_access.gui.poi_locking_config_menu.button.aim_assist_button
 Bow aim assist
 
+minecraft_access.gui.read_crosshair_config_menu.button.use_jade_button
+Use Jade
+
+minecraft_access.gui.read_crosshair_config_menu.button.use_jade_button.unavailable
+Use Jade: Unavailable
+
 minecraft_access.gui.screen.speech_settings_config_menu
 Speech Settings Configs Menu
 

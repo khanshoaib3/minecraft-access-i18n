@@ -1,3 +1,9 @@
+minecraft_access.gui.read_crosshair_config_menu.button.use_jade_button
+Use Jade
+
+minecraft_access.gui.read_crosshair_config_menu.button.use_jade_button.unavailable
+Use Jade: Unavailable
+
 minecraft_access.keys.other.closest_lava_source_name
 Find Closest Lava Source
 
