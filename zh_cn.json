@@ -212,8 +212,6 @@
   "minecraft_access.keys.other.group_name": "Minecraft Access: 其它键位设置",
   "minecraft_access.keys.other.health_n_hunger_key_name": "朗读玩家生命与饥饿",
   "minecraft_access.keys.other.locking_handler_key_name": "锁定附近的方块/实体",
-  "minecraft_access.keys.other.access_menu_hot_key_name": "朗读菜单热键",
-  "minecraft_access.keys.other.access_menu_hot_key_switch": "%s 被切换为热键",
   "minecraft_access.keys.other.access_menu_key_name": "打开朗读菜单",
   "minecraft_access.keys.other.player_position_key_name": "朗读玩家位置",
   "minecraft_access.menus.book_screen.next_page_button_name": "下一页",

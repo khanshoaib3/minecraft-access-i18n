@@ -163,8 +163,6 @@
   "minecraft_access.keys.other.group_name": "Minecraft Access: Outras teclas de atalho do Minecraft Access",
   "minecraft_access.keys.other.health_n_hunger_key_name": "Tecla que diz a saúde e fome",
   "minecraft_access.keys.other.locking_handler_key_name": "Tecla para olhar para blocos ou entidades próximas",
-  "minecraft_access.keys.other.access_menu_hot_key_name": "Tecla de uso rápido do menu do narrador",
-  "minecraft_access.keys.other.access_menu_hot_key_switch": "Tecla de uso rápido do menu do narrador alterada para%s",
   "minecraft_access.keys.other.access_menu_key_name": "Tecla do menu do narrador",
   "minecraft_access.keys.other.player_position_key_name": "Tecla que diz a posição do jogador",
   "minecraft_access.menus.book_screen.next_page_button_name": "Próxima página",
