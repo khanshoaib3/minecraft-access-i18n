@@ -238,7 +238,7 @@
   "minecraft_access.access_menu.time_of_day_am": "Time is, %s A.M.",
   "minecraft_access.access_menu.time_of_day_pm": "Time is, %s P.M.",
   "minecraft_access.access_menu.xp": "Experience level is %s with %s progress",
-  "minecraft_access.other.`animal_variant_format": "{variant} {animal}",
+  "minecraft_access.other.animal_variant_format": "{variant} {animal}",
   "minecraft_access.other.biome": "%s biome entered",
   "minecraft_access.other.craftable": "Craftable",
   "minecraft_access.other.durability": "Durability: %s of %s",
