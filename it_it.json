@@ -151,7 +151,7 @@
   "minecraft_access.gui.screen.relative_position_sound_cue_menu": "Menu di configurazione del segnale acustico della posizione relativa",
   "minecraft_access.gui.screen.value_entry_menu": "Inserimento valore Menu",
   "minecraft_access.gui.value_entry_menu.info_text": "Premere il tasto Invio per accettare e il tasto Esci per annullare.\tValore: %s",
-  "minecraft_access.healthHunger.format": "La salute è %s. La fame è %s",
+  "minecraft_access.health_and_hunger.format": "La salute è %s. La fame è %s",
   "minecraft_access.inventory_controls.Unknown": "Sconosciuto",
   "minecraft_access.inventory_controls.direction_down": "Giu",
   "minecraft_access.inventory_controls.direction_left": "Sinistra",
@@ -222,7 +222,7 @@
   "minecraft_access.other.not_found": "Non trovato",
   "minecraft_access.other.selected": "%s selezionato",
   "minecraft_access.other.words_connection": ", ",
-  "minecraft_access.player_warnings.air_low": "Attenzione, l'aria è %d",
+  "minecraft_access.player_warnings.air_low": "Attenzione, l'aria è %s",
   "minecraft_access.player_warnings.health_low": "Attenzione, la salute è %d",
   "minecraft_access.player_warnings.hunger_low": "Attenzione, la fame è %d",
   "minecraft_access.point_of_interest.locking.locked": "Blocco su: %s",
@@ -286,5 +286,6 @@
   "minecraft_access.util.position_difference_right": "%s a destra dei blocchi",
   "minecraft_access.util.position_difference_up": "%s sopra ai blocchi",
   "minecraft_access.xp_indicator.decreased": "XP del giocatore ridotti a %s",
-  "minecraft_access.xp_indicator.increased": "XP del giocatore aumentati a %s"
+  "minecraft_access.xp_indicator.increased": "XP del giocatore aumentati a %s",
+  "minecraft_access.air.format": "l'aria è %s"
 }

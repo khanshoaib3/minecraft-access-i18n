@@ -176,7 +176,7 @@
   "minecraft_access.gui.screen.value_entry_menu": "数值输入菜单",
   "minecraft_access.gui.speech_settings_config_menu.button.speech_rate": "语音速度（百分比）",
   "minecraft_access.gui.value_entry_menu.info_text": "按回车键确认，或按ESC退出键取消。\t当前值： %s",
-  "minecraft_access.healthHunger.format": "健康 %s， 饥饿 %s。",
+  "minecraft_access.health_and_hunger.format": "健康 %s，饥饿 %s。",
   "minecraft_access.inventory_controls.Unknown": "未知",
   "minecraft_access.inventory_controls.direction_down": "下",
   "minecraft_access.inventory_controls.direction_left": "左",
@@ -253,7 +253,7 @@
   "minecraft_access.perspective.first_person": "第一人称",
   "minecraft_access.perspective.third_person_back": "第三人称后",
   "minecraft_access.perspective.third_person_front": "第三人称前",
-  "minecraft_access.player_warnings.air_low": "警告，氧气 %d",
+  "minecraft_access.player_warnings.air_low": "警告，氧气 %s",
   "minecraft_access.player_warnings.health_low": "警告，健康 %d ",
   "minecraft_access.player_warnings.hunger_low": "警告，饥饿 %d ",
   "minecraft_access.point_of_interest.locking.locked": "锁定到： %s",
@@ -329,5 +329,6 @@
   "minecraft_access.wolf_variant.striped": "条纹",
   "minecraft_access.wolf_variant.woods": "森林",
   "minecraft_access.xp_indicator.decreased": "玩家经验等级降低至 %s",
-  "minecraft_access.xp_indicator.increased": "玩家经验等级增加到 %s"
+  "minecraft_access.xp_indicator.increased": "玩家经验等级增加到 %s",
+  "minecraft_access.air.format": "空气 %s"
 }
