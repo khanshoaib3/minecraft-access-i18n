@@ -20,6 +20,7 @@
   "minecraft_access.access_menu.time_of_day_am": "Tempo attuale, %s A.M.",
   "minecraft_access.access_menu.time_of_day_pm": "Tempo attuale, %s P.M.",
   "minecraft_access.access_menu.xp": "Il livello di esperienza %s  %s progresso",
+  "minecraft_access.air.format": "l'aria è %s",
   "minecraft_access.area_map.cursor_reach_bound": "Il cursore raggiunge la distanza delimitata",
   "minecraft_access.area_map.cursor_reset": "Il cursore viene reimpostato sulla posizione del giocatore, %s",
   "minecraft_access.area_map.map_lock": "Mappa dell'area bloccata",
@@ -286,6 +287,5 @@
   "minecraft_access.util.position_difference_right": "%s a destra dei blocchi",
   "minecraft_access.util.position_difference_up": "%s sopra ai blocchi",
   "minecraft_access.xp_indicator.decreased": "XP del giocatore ridotti a %s",
-  "minecraft_access.xp_indicator.increased": "XP del giocatore aumentati a %s",
-  "minecraft_access.air.format": "l'aria è %s"
+  "minecraft_access.xp_indicator.increased": "XP del giocatore aumentati a %s"
 }

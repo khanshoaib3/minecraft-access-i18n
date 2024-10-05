@@ -20,6 +20,7 @@
   "minecraft_access.access_menu.time_of_day_am": "现在是上午 %s",
   "minecraft_access.access_menu.time_of_day_pm": "现在是下午 %s",
   "minecraft_access.access_menu.xp": "当前经验等级为 %s ，进度 %s ",
+  "minecraft_access.air.format": "空气 %s",
   "minecraft_access.area_map.cursor_reach_bound": "指针到达距离限制",
   "minecraft_access.area_map.cursor_reset": "指针重置回玩家位置，%s",
   "minecraft_access.area_map.map_lock": "区域地图已锁定",
@@ -329,6 +330,5 @@
   "minecraft_access.wolf_variant.striped": "条纹",
   "minecraft_access.wolf_variant.woods": "森林",
   "minecraft_access.xp_indicator.decreased": "玩家经验等级降低至 %s",
-  "minecraft_access.xp_indicator.increased": "玩家经验等级增加到 %s",
-  "minecraft_access.air.format": "空气 %s"
+  "minecraft_access.xp_indicator.increased": "玩家经验等级增加到 %s"
 }

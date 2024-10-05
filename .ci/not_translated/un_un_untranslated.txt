@@ -61,6 +61,9 @@ Time is, %s P.M.
 minecraft_access.access_menu.xp
 Experience level is %s with %s progress
 
+minecraft_access.air.format
+Air is %s.
+
 minecraft_access.area_map.cursor_reach_bound
 Cursor Reaches The Distance Bound
 
@@ -529,8 +532,8 @@ Speech Rate (percent)
 minecraft_access.gui.value_entry_menu.info_text
 Press enter key to accept and escape key to cancel.	Value: %s
 
-minecraft_access.health
-null
+minecraft_access.health_and_hunger.format
+Health is %s. Hunger is %s
 
 minecraft_access.inventory_controls.
 null

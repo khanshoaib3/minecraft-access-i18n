@@ -20,6 +20,7 @@
   "minecraft_access.access_menu.time_of_day_am": "São, %s A.M.",
   "minecraft_access.access_menu.time_of_day_pm": "São, %s P.M.",
   "minecraft_access.access_menu.xp": "O nível de experiência é %s com  o progresso de %s",
+  "minecraft_access.air.format": "Ar em %s.",
   "minecraft_access.book_edit.focus_moved_away": "Foco movido para longe dos botões",
   "minecraft_access.color.black": "Preto",
   "minecraft_access.color.blue": "Azul",
@@ -255,6 +256,5 @@
   "minecraft_access.util.position_difference_right": "%s blocos à direita",
   "minecraft_access.util.position_difference_up": "%s blocos acima",
   "minecraft_access.xp_indicator.decreased": "Xp do jogador diminuiu para %s",
-  "minecraft_access.xp_indicator.increased": "Xp do jogador almentou para  %s",
-  "minecraft_access.air.format": "Ar em %s."
+  "minecraft_access.xp_indicator.increased": "Xp do jogador almentou para  %s"
 }
