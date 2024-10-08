@@ -115,7 +115,7 @@
   "minecraft_access.gui.other_config_menu.button.biome_indicator_button": "Biome Indicator",
   "minecraft_access.gui.other_config_menu.button.command_suggestion_narrator_format_button": "Command Suggestion Narrator Format",
   "minecraft_access.gui.other_config_menu.button.debug_mode_button": "Debug Mode",
-  "minecraft_access.gui.other_config_menu.button.health_n_hunger_button": "Speak Health N Hunger Key",
+  "minecraft_access.gui.other_config_menu.button.health_n_hunger_button": "Speak Health And Hunger Key",
   "minecraft_access.gui.other_config_menu.button.menu_fix_button": "Menu Fix",
   "minecraft_access.gui.other_config_menu.button.only_speak_action_bar_updates_button": "Only Speak Action Bar Updates",
   "minecraft_access.gui.other_config_menu.button.position_narrator_button": "Position Narrator",
