@@ -347,7 +347,7 @@ minecraft_access.gui.other_config_menu.button.debug_mode_button
 Debug Mode
 
 minecraft_access.gui.other_config_menu.button.health_n_hunger_button
-Speak Health N Hunger Key
+Speak Health And Hunger Key
 
 minecraft_access.gui.other_config_menu.button.menu_fix_button
 Menu Fix
